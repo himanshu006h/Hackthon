@@ -7,6 +7,10 @@ workspace 'Hackthon'
 
 target 'Hackthon' do
  project 'Hackthon.project'
+ pod 'FloatingPanel'
+ pod 'Segmentio'
+ pod 'TensorFlowLiteTaskVision'
+ pod 'OrderedCollections'
 
 end
 

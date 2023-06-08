@@ -8,11 +8,12 @@
 import UIKit
 import FloatingPanel
 import Segmentio
+import SafariServices
 
 class ItemsListViewModel {
     var itemCategories = [SegmentioItem]()
-    
-    init(itemCategories: [SegmentioItem] = []) {
+    var products = [SegmentioItem : [productDetails]]()
+    init(itemCategories: [SegmentioItem] = [] ) {
         self.itemCategories = itemCategories
     }
 }
@@ -22,30 +23,63 @@ class ItemsListViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segmentView: Segmentio!
 
-    let viewModel = ItemsListViewModel()
+    var viewModel = ItemsListViewModel()
     
     var fpc: FloatingPanelController!
 
+    func reloadData() {
+        self.segmentView.reloadSegmentio()
+        self.tableView.reloadData()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        viewModel.itemCategories = [SegmentioItem(title: "Shirt", image: nil), SegmentioItem(title: "Shirt", image: nil), SegmentioItem(title: "Shirt", image: nil), SegmentioItem(title: "Shirt", image: nil), SegmentioItem(title: "Shirt", image: nil), SegmentioItem(title: "Shirt", image: nil), SegmentioItem(title: "Shirt", image: nil), SegmentioItem(title: "Shirt", image: nil), SegmentioItem(title: "Shirt", image: nil), SegmentioItem(title: "Shirt", image: nil)]
+        segmentView.selectedSegmentioIndex = -1
+        viewModel.itemCategories = []
         
         setup()
+    }
+    func addMenu(newItems : [SegmentioItem]) {
+        self.viewModel.itemCategories = newItems
+        self.tableView.reloadData()
     }
     
     private func setup() {
         tableView.rowHeight = UITableView.automaticDimension
         tableView.register(UINib(nibName: "ItemCell", bundle: nil), forCellReuseIdentifier: "ItemCell")
+        let states = SegmentioStates(
+            defaultState: SegmentioState(
+                backgroundColor: .clear,
+                titleFont: UIFont.systemFont(ofSize: UIFont.smallSystemFontSize),
+                titleTextColor: .black
+            ),
+            selectedState: SegmentioState(
+                backgroundColor: .orange,
+                titleFont: UIFont.systemFont(ofSize: UIFont.smallSystemFontSize),
+                titleTextColor: .white
+            ),
+            highlightedState: SegmentioState(
+                backgroundColor: UIColor.lightGray.withAlphaComponent(0.6),
+                titleFont: UIFont.boldSystemFont(ofSize: UIFont.smallSystemFontSize),
+                titleTextColor: .black
+            )
+        )
+        let horiz_separator = SegmentioHorizontalSeparatorOptions(
+                    type: SegmentioHorizontalSeparatorType.topAndBottom, // Top, Bottom, TopAndBottom
+                    height: 1,
+                    color: .gray
+        )
         
         let options = SegmentioOptions(
             backgroundColor: .white,
             segmentPosition: SegmentioPosition.dynamic,
             scrollEnabled: true,
             indicatorOptions: SegmentioIndicatorOptions(type: .top),
-            horizontalSeparatorOptions: SegmentioHorizontalSeparatorOptions.init(type: .topAndBottom),
+            horizontalSeparatorOptions: horiz_separator,
+            verticalSeparatorOptions: SegmentioVerticalSeparatorOptions(ratio: 0.6, color: .gray),
             imageContentMode: .center,
-            labelTextAlignment: .center)
+            labelTextAlignment: .center,
+            segmentStates: states
+        )
         
         segmentView.setup(
             content: viewModel.itemCategories,
@@ -59,19 +93,31 @@ class ItemsListViewController: UIViewController {
     }
 }
 
-extension ItemsListViewController: UITableViewDataSource {
+extension ItemsListViewController: UITableViewDataSource ,UITableViewDelegate{
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        1
+        return (viewModel.itemCategories.count>0) ? 1 : 0
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        10
+        let category = self.viewModel.itemCategories[segmentView.selectedSegmentioIndex]
+        return self.viewModel.products[category]?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath) as! ItemCell
-        cell.configure(model: ItemCellModel(name: "T-Shirt", image: nil))
+        let category = self.viewModel.itemCategories[segmentView.selectedSegmentioIndex]
+        if let product = self.viewModel.products[category]?[indexPath.row] {
+            cell.configure(model: product)
+        }
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let category = self.viewModel.itemCategories[segmentView.selectedSegmentioIndex]
+        if let product = self.viewModel.products[category]?[indexPath.row], let urlStr = product.product_page_url, let url = URL(string: urlStr){
+            let safariViewController = SFSafariViewController(url: url)
+            present(safariViewController, animated: true, completion: nil)
+        }
     }
 }

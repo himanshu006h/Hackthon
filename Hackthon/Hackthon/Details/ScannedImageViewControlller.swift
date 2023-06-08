@@ -10,7 +10,6 @@ import FloatingPanel
 
 class ScannedImageViewControlller: UIViewController, FloatingPanelControllerDelegate {
 
-    @IBOutlet weak var imagevIew: UIImageView!
     var fpc: FloatingPanelController!
 
     override func viewDidLoad() {
