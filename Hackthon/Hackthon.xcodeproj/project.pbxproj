@@ -22,6 +22,10 @@
 		3460669D2A31A28200ADADAB /* ScannerOutputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460669B2A31A28200ADADAB /* ScannerOutputModel.swift */; };
 		3460669E2A31A28200ADADAB /* ScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460669C2A31A28200ADADAB /* ScannerModel.swift */; };
 		346066A02A31A2E700ADADAB /* ScannerComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3460669F2A31A2E600ADADAB /* ScannerComponentViewController.xib */; };
+		346066A62A31D36800ADADAB /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346066A22A31D36800ADADAB /* ItemCell.xib */; };
+		346066A72A31D36800ADADAB /* ItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066A32A31D36800ADADAB /* ItemsListViewController.swift */; };
+		346066A82A31D36800ADADAB /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066A42A31D36800ADADAB /* ItemCell.swift */; };
+		346066A92A31D36800ADADAB /* ScannedImageViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066A52A31D36800ADADAB /* ScannedImageViewControlller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,10 @@
 		3460669B2A31A28200ADADAB /* ScannerOutputModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerOutputModel.swift; sourceTree = "<group>"; };
 		3460669C2A31A28200ADADAB /* ScannerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerModel.swift; sourceTree = "<group>"; };
 		3460669F2A31A2E600ADADAB /* ScannerComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScannerComponentViewController.xib; sourceTree = "<group>"; };
+		346066A22A31D36800ADADAB /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		346066A32A31D36800ADADAB /* ItemsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListViewController.swift; sourceTree = "<group>"; };
+		346066A42A31D36800ADADAB /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		346066A52A31D36800ADADAB /* ScannedImageViewControlller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannedImageViewControlller.swift; sourceTree = "<group>"; };
 		41EDCF4E6C96D57029C654CC /* Pods_Hackthon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackthon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F11CF30B041985D8AA832F5 /* Pods-Hackthon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackthon.debug.xcconfig"; path = "Target Support Files/Pods-Hackthon/Pods-Hackthon.debug.xcconfig"; sourceTree = "<group>"; };
 		FC96E2142BDCE29D1F98AD82 /* Pods-Hackthon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackthon.release.xcconfig"; path = "Target Support Files/Pods-Hackthon/Pods-Hackthon.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +132,7 @@
 		346066652A31919900ADADAB /* Hackthon */ = {
 			isa = PBXGroup;
 			children = (
+				346066A12A31D35400ADADAB /* Details */,
 				346066962A31A15E00ADADAB /* ImageCapture */,
 				346066662A31919900ADADAB /* AppDelegate.swift */,
 				346066682A31919900ADADAB /* SceneDelegate.swift */,
@@ -163,6 +172,17 @@
 				346066992A31A22000ADADAB /* CoreScanner.swift */,
 			);
 			path = ImageCapture;
+			sourceTree = "<group>";
+		};
+		346066A12A31D35400ADADAB /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				346066A42A31D36800ADADAB /* ItemCell.swift */,
+				346066A22A31D36800ADADAB /* ItemCell.xib */,
+				346066A32A31D36800ADADAB /* ItemsListViewController.swift */,
+				346066A52A31D36800ADADAB /* ScannedImageViewControlller.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 		92E01C2E2D33979D901EB4FE /* Pods */ = {
@@ -281,6 +301,7 @@
 			files = (
 				346066732A31919E00ADADAB /* LaunchScreen.storyboard in Resources */,
 				346066702A31919E00ADADAB /* Assets.xcassets in Resources */,
+				346066A62A31D36800ADADAB /* ItemCell.xib in Resources */,
 				3460666E2A31919900ADADAB /* Main.storyboard in Resources */,
 				346066A02A31A2E700ADADAB /* ScannerComponentViewController.xib in Resources */,
 			);
@@ -334,9 +355,12 @@
 			files = (
 				3460669A2A31A22000ADADAB /* CoreScanner.swift in Sources */,
 				3460669E2A31A28200ADADAB /* ScannerModel.swift in Sources */,
+				346066A82A31D36800ADADAB /* ItemCell.swift in Sources */,
 				3460666B2A31919900ADADAB /* ViewController.swift in Sources */,
+				346066A92A31D36800ADADAB /* ScannedImageViewControlller.swift in Sources */,
 				346066672A31919900ADADAB /* AppDelegate.swift in Sources */,
 				3460669D2A31A28200ADADAB /* ScannerOutputModel.swift in Sources */,
+				346066A72A31D36800ADADAB /* ItemsListViewController.swift in Sources */,
 				346066982A31A1FE00ADADAB /* ScannerComponent.swift in Sources */,
 				346066692A31919900ADADAB /* SceneDelegate.swift in Sources */,
 			);
