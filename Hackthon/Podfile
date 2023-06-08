@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+workspace 'Hackthon'
+
+target 'Hackthon' do
+ project 'Hackthon.project'
+
+end
+
+post_install do |installer_representation|
+    installer_representation.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+          config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64'
+          if Gem::Version.new(config.build_settings['IPHONEOS_DEPLOYMENT_TARGET']) < Gem::Version.new('13.0')
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+           end
+        end
+    end
+end
