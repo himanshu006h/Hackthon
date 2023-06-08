@@ -17,6 +17,11 @@
 		3460667E2A31919E00ADADAB /* HackthonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460667D2A31919E00ADADAB /* HackthonTests.swift */; };
 		346066882A31919F00ADADAB /* HackthonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066872A31919F00ADADAB /* HackthonUITests.swift */; };
 		3460668A2A31919F00ADADAB /* HackthonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066892A31919F00ADADAB /* HackthonUITestsLaunchTests.swift */; };
+		346066982A31A1FE00ADADAB /* ScannerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066972A31A1FE00ADADAB /* ScannerComponent.swift */; };
+		3460669A2A31A22000ADADAB /* CoreScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066992A31A22000ADADAB /* CoreScanner.swift */; };
+		3460669D2A31A28200ADADAB /* ScannerOutputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460669B2A31A28200ADADAB /* ScannerOutputModel.swift */; };
+		3460669E2A31A28200ADADAB /* ScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460669C2A31A28200ADADAB /* ScannerModel.swift */; };
+		346066A02A31A2E700ADADAB /* ScannerComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3460669F2A31A2E600ADADAB /* ScannerComponentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,11 @@
 		346066832A31919F00ADADAB /* HackthonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackthonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		346066872A31919F00ADADAB /* HackthonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackthonUITests.swift; sourceTree = "<group>"; };
 		346066892A31919F00ADADAB /* HackthonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackthonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		346066972A31A1FE00ADADAB /* ScannerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerComponent.swift; sourceTree = "<group>"; };
+		346066992A31A22000ADADAB /* CoreScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreScanner.swift; sourceTree = "<group>"; };
+		3460669B2A31A28200ADADAB /* ScannerOutputModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerOutputModel.swift; sourceTree = "<group>"; };
+		3460669C2A31A28200ADADAB /* ScannerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerModel.swift; sourceTree = "<group>"; };
+		3460669F2A31A2E600ADADAB /* ScannerComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScannerComponentViewController.xib; sourceTree = "<group>"; };
 		41EDCF4E6C96D57029C654CC /* Pods_Hackthon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackthon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F11CF30B041985D8AA832F5 /* Pods-Hackthon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackthon.debug.xcconfig"; path = "Target Support Files/Pods-Hackthon/Pods-Hackthon.debug.xcconfig"; sourceTree = "<group>"; };
 		FC96E2142BDCE29D1F98AD82 /* Pods-Hackthon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackthon.release.xcconfig"; path = "Target Support Files/Pods-Hackthon/Pods-Hackthon.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +124,7 @@
 		346066652A31919900ADADAB /* Hackthon */ = {
 			isa = PBXGroup;
 			children = (
+				346066962A31A15E00ADADAB /* ImageCapture */,
 				346066662A31919900ADADAB /* AppDelegate.swift */,
 				346066682A31919900ADADAB /* SceneDelegate.swift */,
 				3460666A2A31919900ADADAB /* ViewController.swift */,
@@ -142,13 +153,24 @@
 			path = HackthonUITests;
 			sourceTree = "<group>";
 		};
+		346066962A31A15E00ADADAB /* ImageCapture */ = {
+			isa = PBXGroup;
+			children = (
+				3460669C2A31A28200ADADAB /* ScannerModel.swift */,
+				3460669B2A31A28200ADADAB /* ScannerOutputModel.swift */,
+				346066972A31A1FE00ADADAB /* ScannerComponent.swift */,
+				3460669F2A31A2E600ADADAB /* ScannerComponentViewController.xib */,
+				346066992A31A22000ADADAB /* CoreScanner.swift */,
+			);
+			path = ImageCapture;
+			sourceTree = "<group>";
+		};
 		92E01C2E2D33979D901EB4FE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				8F11CF30B041985D8AA832F5 /* Pods-Hackthon.debug.xcconfig */,
 				FC96E2142BDCE29D1F98AD82 /* Pods-Hackthon.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -260,6 +282,7 @@
 				346066732A31919E00ADADAB /* LaunchScreen.storyboard in Resources */,
 				346066702A31919E00ADADAB /* Assets.xcassets in Resources */,
 				3460666E2A31919900ADADAB /* Main.storyboard in Resources */,
+				346066A02A31A2E700ADADAB /* ScannerComponentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,8 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3460669A2A31A22000ADADAB /* CoreScanner.swift in Sources */,
+				3460669E2A31A28200ADADAB /* ScannerModel.swift in Sources */,
 				3460666B2A31919900ADADAB /* ViewController.swift in Sources */,
 				346066672A31919900ADADAB /* AppDelegate.swift in Sources */,
+				3460669D2A31A28200ADADAB /* ScannerOutputModel.swift in Sources */,
+				346066982A31A1FE00ADADAB /* ScannerComponent.swift in Sources */,
 				346066692A31919900ADADAB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

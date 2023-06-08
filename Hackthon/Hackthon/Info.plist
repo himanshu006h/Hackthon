@@ -21,5 +21,8 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>De esta manera podrás escanear
+tu identificación.</string>
 </dict>
 </plist>
