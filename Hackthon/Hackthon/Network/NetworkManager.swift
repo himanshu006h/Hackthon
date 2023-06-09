@@ -18,6 +18,8 @@ extension URLComponents {
         self.path = path
         self.queryItems = queryItems
         self.queryItems?.append(URLQueryItem(name: "location", value: "Austin,+Texas,+United+States"))
+        self.queryItems?.append(URLQueryItem(name: "page", value: "1"))
+        self.queryItems?.append(URLQueryItem(name: "ps", value: "10"))
         self.queryItems?.append(URLQueryItem(name: "hl", value: "en"))
         self.queryItems?.append(URLQueryItem(name: "gl", value: "us"))
         self.queryItems?.append(URLQueryItem(name: "engine", value: "walmart"))

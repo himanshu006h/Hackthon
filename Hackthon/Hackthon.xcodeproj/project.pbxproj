@@ -589,6 +589,7 @@
 				DEVELOPMENT_TEAM = UDPJ785EBR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hackthon/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vision Shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -619,6 +620,7 @@
 				DEVELOPMENT_TEAM = UDPJ785EBR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hackthon/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vision Shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

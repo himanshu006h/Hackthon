@@ -29,23 +29,25 @@ class ItemsListViewController: UIViewController {
 
     func reloadData() {
         self.segmentView.reloadSegmentio()
+        setupTabBar()
         self.tableView.reloadData()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         segmentView.selectedSegmentioIndex = -1
         viewModel.itemCategories = []
-        
-        setup()
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.delegate = self
+        tableView.register(UINib(nibName: "ItemCell", bundle: nil), forCellReuseIdentifier: "ItemCell")
+        setupTabBar()
     }
     func addMenu(newItems : [SegmentioItem]) {
         self.viewModel.itemCategories = newItems
         self.tableView.reloadData()
     }
     
-    private func setup() {
-        tableView.rowHeight = UITableView.automaticDimension
-        tableView.register(UINib(nibName: "ItemCell", bundle: nil), forCellReuseIdentifier: "ItemCell")
+    private func setupTabBar() {
+        
         let states = SegmentioStates(
             defaultState: SegmentioState(
                 backgroundColor: .clear,
@@ -89,6 +91,9 @@ class ItemsListViewController: UIViewController {
         
         segmentView.valueDidChange = { segmentio, segmentIndex in
             print("Selected item: ", segmentIndex)
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
         }
     }
 }
