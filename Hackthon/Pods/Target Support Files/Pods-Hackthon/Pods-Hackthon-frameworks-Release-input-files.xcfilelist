@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Hackthon/Pods-Hackthon-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FloatingPanel/FloatingPanel.framework
+${BUILT_PRODUCTS_DIR}/OrderedCollections/OrderedCollections.framework
+${BUILT_PRODUCTS_DIR}/Segmentio/Segmentio.framework

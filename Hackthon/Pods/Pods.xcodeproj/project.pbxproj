@@ -6,127 +6,723 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		C6E02334B34978796A45D1BAFBF86A66 /* TensorFlowLiteTaskVision */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 276AA80069B441C706BFD4CFA8631E87 /* Build configuration list for PBXAggregateTarget "TensorFlowLiteTaskVision" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TensorFlowLiteTaskVision;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		05D15733D2861B5917F25F5424577404 /* Pods-Hackthon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90C2446729D648E6632C92D0E9EB48 /* Pods-Hackthon-dummy.m */; };
-		2AD6B1B84B344CE065CA89DF67D0BC55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9F9F264E2E936D8B7B3EDE137D8CC5ED /* Pods-Hackthon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B324118638C3C8F76CDA10466E70055 /* Pods-Hackthon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0035B6877407183E3AAE58CC68069605 /* OrderedSet+Diffing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305EDBF92200EC522EC9F5E3D0F0BDC /* OrderedSet+Diffing.swift */; };
+		032438EEC31581AADD24BB883C851F1D /* OrderedSet+UnstableInternals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A91E995996027D42BCEB699E39A74 /* OrderedSet+UnstableInternals.swift */; };
+		03F50ED6AF819E854B2437ED5F8CEAF7 /* OrderedSet+RandomAccessCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8540B6DFD1F723BB9EABD701498C99C /* OrderedSet+RandomAccessCollection.swift */; };
+		047B35438026E5606186DCD79C997DE2 /* OrderedSet+Partial SetAlgebra+Predicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB14C8CE5EF21852D8422A979105EA /* OrderedSet+Partial SetAlgebra+Predicates.swift */; };
+		087F7CF29BF785D9F528720DAE9D0A8C /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = B32546D7AE8FBF424FCD6B59CB52879F /* BadgeWithCounterViewBigSized.xib */; };
+		090AA98B8F211F18A676AFBB852B71BF /* OrderedSet+Insertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC713808A979DD537028934980332B60 /* OrderedSet+Insertions.swift */; };
+		141A2FAEC4F4A57CB3D4A3F1890ACCC2 /* Segmentio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6189871ECE52BAB373A0EDA0281705FB /* Segmentio-dummy.m */; };
+		1669EC0C3BBE9E0BB16C1FAA8E005C40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		182287F2F2F7E55E6E46EA092961EEED /* _HashTable+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762E2BF0B3ACFF61F0DE2E38E97AF24 /* _HashTable+Testing.swift */; };
+		1DB35FB4F28C013294734F03F320A6DD /* RandomAccessCollection+Offsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF342D1A3AA953199328927E0FEBDF81 /* RandomAccessCollection+Offsets.swift */; };
+		2372F84F5FDDA2B23EF1D1F9765EE0BB /* SegmentioOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F863F1F84942F47AD5795BCD86356 /* SegmentioOptions.swift */; };
+		245C2FD33C9834E2A456FF47A95B093E /* OrderedDictionary+CustomDebugStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F74D63B4FD080FECED3C4A349807EB /* OrderedDictionary+CustomDebugStringConvertible.swift */; };
+		25471AAACFA8DF5799B4B61145CB525F /* OrderedSet+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60B39F7AFFF28AFE696C2DC10103C4 /* OrderedSet+Codable.swift */; };
+		2F9E1790D1F88B0D9F374294FD0FDD49 /* _UnsafeBitset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED5645AFDDA12269A79009226185C0 /* _UnsafeBitset.swift */; };
+		33001489AE185F3803340BA7AB58E690 /* OrderedDictionary+CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D411C8F1B5CF5235B16DFECAC8C4A95 /* OrderedDictionary+CustomStringConvertible.swift */; };
+		35CE50B095F994F7D4A5CCFF06AA8400 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE66A58C6692BAAE56EFE6F9A7F3E02 /* Controller.swift */; };
+		362E130D0D68F81CC1096AC291CA773D /* OrderedSet+Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E3E78D4377F8720771A4B59DB4F0A6 /* OrderedSet+Hashable.swift */; };
+		3CC34F811D2F469604BBB4B8EF83A1E7 /* LayoutAnchoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FAC2A67352B44D37A4BADDBC2641C5 /* LayoutAnchoring.swift */; };
+		406E34F38984E616B0E65BA27BE3FD79 /* OrderedSet+Partial RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588C56A68F0F7A28A4341735641EE4F /* OrderedSet+Partial RangeReplaceableCollection.swift */; };
+		417E432CBFD9512722DC54190F529746 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843D75F8B8914142B5286743B4DFEC8 /* Position.swift */; };
+		469461DF21E91249B6EDEBA57CEFD9A2 /* OrderedSet+CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E1657E41D1FD32F6C4412B1C89661 /* OrderedSet+CustomStringConvertible.swift */; };
+		4778E0CCB30A8527991354FDB8BF09C3 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4468A4C31A6E3E81104111F12237CE25 /* Core.swift */; };
+		487AA42C928214420E93932E7C7F72E5 /* SegmentioCellWithImageUnderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62284E2BA62EC242F41B5E72527071E7 /* SegmentioCellWithImageUnderLabel.swift */; };
+		4AF86E04F5BF550F9A83888317F9191D /* OrderedDictionary+Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FCDE07A89677151F45C9B2F320ECA0 /* OrderedDictionary+Values.swift */; };
+		4B866B36183AE79D2597F7DEC1A30920 /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23F9E4D2E90C370BCA59596899DE7B61 /* BadgeWithCounterViewStandardSized.xib */; };
+		4BED1362D2D8EEDF617ABCE6A54EC85B /* OrderedSet+ReserveCapacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D666D91377B8AC007F10B5D8349562 /* OrderedSet+ReserveCapacity.swift */; };
+		4CD79C3F8863F9BA0B6169DE93F72956 /* OrderedDictionary+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5764DDF80E9DC66C42388E30EE429A0 /* OrderedDictionary+Elements.swift */; };
+		52755A2C3DAAE76CD58B45F077603E68 /* OrderedSet+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04DB11343726618AAE77C463A2322DF /* OrderedSet+Equatable.swift */; };
+		5912B5A7D69727B1DCDC5B39FD59E475 /* OrderedDictionary+Invariants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A4E964B65ED62865E8E4464FEE24FB /* OrderedDictionary+Invariants.swift */; };
+		60E1BD501427A3553EFEC0557B4C649F /* _HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAC6EFA5A8569E26E1A6B566C8AE2DD /* _HashTable.swift */; };
+		64B340D21CE02611998CF98E8F845D0E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31AE2703909CF5A9484E33430012032 /* State.swift */; };
+		6741D058F910546341694EA6C75AD23D /* OrderedSet+CustomReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01625AEB0840169DFEDD4336BCD3A7A1 /* OrderedSet+CustomReflectable.swift */; };
+		68EC04E348B7E5D344F15A795194AC56 /* Pods-Hackthon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DBBDE4AECF1A57DEEA55572426309 /* Pods-Hackthon-dummy.m */; };
+		69150C976200A1FE5AA1EDBDFB476E9D /* OrderedDictionary+Elements+SubSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC5C751BAF072992BE87C5BDE515C5 /* OrderedDictionary+Elements+SubSequence.swift */; };
+		6A56D803F3FA3905A8E1DDB83A8D89FA /* OrderedDictionary+Partial RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F632D9367FA987ACDDA215E43F711 /* OrderedDictionary+Partial RangeReplaceableCollection.swift */; };
+		6AF56F9B15A0736F6646BA03DC20C5F4 /* OrderedCollections-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDCA9A6A21A4903F2E080C6DBF27F04 /* OrderedCollections-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D8B3B03F650C15489A2A03D950AD6C8 /* OrderedDictionary+Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC98865598CFED64FAC1012E0B4597A /* OrderedDictionary+Deprecations.swift */; };
+		6D93CC9F683E8F242C37D8F6053CA7D9 /* OrderedSet+ExpressibleByArrayLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B4FB678FD8A4F950B26EA525C09B /* OrderedSet+ExpressibleByArrayLiteral.swift */; };
+		716B2A73C6BC4C91AC44329B84C63486 /* BadgeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1395BB3923DF9CB5EA9E2EF76D9237F3 /* BadgeViewPresenter.swift */; };
+		716F1AB371C1DBC5A91F85053DE427FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		7219F841366845B94CDA5CF441CF39C0 /* OrderedDictionary+CustomReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21606D198DC3D7DD264190BA47822CB2 /* OrderedDictionary+CustomReflectable.swift */; };
+		79A6C4D0E68777B438FB8D9D964C87B4 /* SegmentioCellWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C37CEB8211EA3C51CA534FC8CF62F1 /* SegmentioCellWithLabel.swift */; };
+		80F9F8D0276D738A5CD1DACEBD5F0F16 /* OrderedDictionary+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA29D67D79783134E0C23A6B013195 /* OrderedDictionary+Sequence.swift */; };
+		83AE6249033A8D067BD881A24BB65A57 /* SegmentioCellWithImageOverLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E9E73C7F0071613B39262D1192A260 /* SegmentioCellWithImageOverLabel.swift */; };
+		852A868A984EB67068160C2987B5F039 /* SegmentioCellWithImageAfterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E314646D7FA1F1BDBB395D1DE6A5A0C /* SegmentioCellWithImageAfterLabel.swift */; };
+		866DFC022937069F38003035850BB546 /* Segmentio-Segmentio in Resources */ = {isa = PBXBuildFile; fileRef = C8F2C375082C9FA86026FA0A69016000 /* Segmentio-Segmentio */; };
+		874B44251DE89D2322A9EF6A82E35494 /* OrderedDictionary+ExpressibleByDictionaryLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA778209BD62EB36F2393DFE7011C1 /* OrderedDictionary+ExpressibleByDictionaryLiteral.swift */; };
+		88314BD8BADBD9E826D467D2B553ACF6 /* OrderedDictionary+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F4034832DC3F0F7CD2D29928EFEA65 /* OrderedDictionary+Codable.swift */; };
+		887275EA13701ABC8442EF911A2B002D /* GrabberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881A1483FAC339C5EB15764B0F4AF9DB /* GrabberView.swift */; };
+		8D124371963B2072CE261D7BCE59EF2A /* OrderedSet+Partial SetAlgebra+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4681F947CD80B9F7AFB499FA547AECBA /* OrderedSet+Partial SetAlgebra+Operations.swift */; };
+		8D158FB7773B86AAE9F81A3DFF8F7275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		93666F263CB286EDDAC1ED2AFCD7ABEA /* FloatingPanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FDE83DDB784CB09DC08CF26C410499 /* FloatingPanel-dummy.m */; };
+		93F14A8EFB8FA31BDDD9F4FF898062CD /* BackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52319B801BDB2C1E87424B179058CEF2 /* BackdropView.swift */; };
+		9590F96CABA49AC084F418820D4349A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9C02D1192F9691C47FB4BABFECC97F40 /* _HashTable+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145845B78A7591B3E21795A1907E96E0 /* _HashTable+Constants.swift */; };
+		9CF8AD44049E62C7A5A98D04E9B7D929 /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C48887BA30062DA0558ACD5F80D065 /* OrderedSet.swift */; };
+		9E429246029C8866067D2E6F33E6908D /* OrderedSet+Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7076EB3C061DDB8068E9942C6254AE58 /* OrderedSet+Initializers.swift */; };
+		9EFF145AAB48021AB483DC6ADF240C3A /* _HashTable+CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418FB971587E21CA9F26A3CB55D6145 /* _HashTable+CustomStringConvertible.swift */; };
+		9FCC57087F4D81B221B201456F1D831B /* OrderedSet+Partial MutableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C9E700AA2DD7E4F72B48AE43F31DD /* OrderedSet+Partial MutableCollection.swift */; };
+		A36DB80133415D7CD0F1C621E2F8A52A /* OrderedDictionary+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4575CB9AF10DC7D85C18EE1DEC44A6E /* OrderedDictionary+Equatable.swift */; };
+		A4034E67527EA67BF32C2F75A3E50F8C /* OrderedSet+Invariants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDA365E1BF36F78675DB4E301AB23ED /* OrderedSet+Invariants.swift */; };
+		A45C6978B572456DB3BA5B4AF399C2F7 /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = B32546D7AE8FBF424FCD6B59CB52879F /* BadgeWithCounterViewBigSized.xib */; };
+		A5FA8AED462E396BF09AB5E7712DC181 /* OrderedSet+UnorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B766C1A7BDD0F4BEB9705F9BDFCCD /* OrderedSet+UnorderedView.swift */; };
+		A7D01C817C3D67F23DB842D897E60CAD /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23F9E4D2E90C370BCA59596899DE7B61 /* BadgeWithCounterViewStandardSized.xib */; };
+		AB4F9A615652673C1D52BFCBCD8FF20F /* OrderedSet+CustomDebugStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC49D9E47FF988CDDF0F202FBE1A81 /* OrderedSet+CustomDebugStringConvertible.swift */; };
+		ABFCF5B3909EA93A1223BBF6D1A4844F /* OrderedSet+Partial SetAlgebra+Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4ADBC719FAA3F2CC6713F7D0D9CB8E /* OrderedSet+Partial SetAlgebra+Basics.swift */; };
+		AE8D24DCCC1F03D9901D0DE60D64BAFB /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A26BA05DEBF49F598C3428A8860100B /* Behavior.swift */; };
+		B13F2E3CF496FDD5F2A072E239274D8F /* Segmentio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2767BB773CAE7178310EE574410A9BFB /* Segmentio.swift */; };
+		B34298462934B58DABD4B97406B6D53F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A6A228D05554FCE6A9C168C09ECFA /* Logger.swift */; };
+		BBC3E9EE46AAE09030497823C8B40DCC /* SegmentioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354CB5D732F384547F988A47BEE7E20 /* SegmentioCell.swift */; };
+		BD2D91A3F6509D9273D77BABD8A978F3 /* _Hashtable+Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1580370CCEED6A5259140D15897235 /* _Hashtable+Header.swift */; };
+		BE96C9B58C8DE9172C4191E231FA0E68 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084663096B1A02C46B914C65E1142E7 /* RoundImageView.swift */; };
+		C3A7E2B1AE641AF7B268DC5375F8E98C /* _HashTable+UnsafeHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373A73834A03884704BEE49B68D372AB /* _HashTable+UnsafeHandle.swift */; };
+		C57A9D3B9E1586A00E36D628721EC4B4 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34887A3E9B483BD77870BF9FCD8A046 /* Layout.swift */; };
+		C5C3DE9EDCCCF2DCEC5961766CC2F32E /* Transitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89E7049A34BD8C2135FFFBD27304DC3 /* Transitioning.swift */; };
+		C6CC1DFB9233CF19D8C2D6378D5CB742 /* _HashTable+BucketIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39D2AD6DAC4D24C07F868F8C6F85ACF /* _HashTable+BucketIterator.swift */; };
+		CA4BB715C9CB6E2D3942DFF2ECE5BDCC /* OrderedCollections.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3A42315CDDEC7B5988DEF62DB8F94BB0 /* OrderedCollections.docc */; };
+		CDA7BE102B536DF04951C483231EC639 /* LayoutProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BE74218AB44D70BC369ACB303EE1 /* LayoutProperties.swift */; };
+		CEF96F3FEF638784F9119B3CAEE1AC70 /* OrderedDictionary+Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB04FA8C3734A4FBE1DC25DF829BDC /* OrderedDictionary+Hashable.swift */; };
+		CF75F852A0EB1C9C67A4B593883A9D70 /* Pods-Hackthon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C866E434B6D801BFBAD15FF1044A4DD6 /* Pods-Hackthon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D06A54B4300195656110A0C9E7E06E1D /* SurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906BC1EFFFDC437EEC1A9B0B5F073F8 /* SurfaceView.swift */; };
+		D1D3A4848F4A26B36401DDFEE38C0694 /* BadgeWithCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B053983879CFBB9B18ED334E0A3B3 /* BadgeWithCounterView.swift */; };
+		D4543B64BCBF8921672B19042EA9804B /* Segmentio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9E0860C7E4BD292225040E5915151D /* Segmentio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8AF6BFD87ABEF575523F79EDE748E58 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A8D764BAC521D8EFF1030329C5131 /* OrderedDictionary.swift */; };
+		DA86FC64C8E6939CE8B3114DC7CDA2A3 /* OrderedCollections-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D991C02993334922CE2F7EE3B7D8D /* OrderedCollections-dummy.m */; };
+		DC0EDBA61967D32C87F4A9AE587BBC30 /* FloatingPanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE628419D527EAD0A8E08DA25C37F8FE /* FloatingPanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E081469E9FD58F052ED4987B3027C471 /* OrderedSet+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343EE066A8953291CF199DDC36B005B4 /* OrderedSet+Testing.swift */; };
+		E15CA89D1FBFAF200355765D7077F28D /* OrderedSet+SubSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A693E8478456D59A0E393F38B35EB93 /* OrderedSet+SubSequence.swift */; };
+		E31BFC33C5EDCF71F75CAC94BD8CAC5A /* SegmentioCellWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFF7DABDD8C50400F1C3F99B3D1F29 /* SegmentioCellWithImage.swift */; };
+		E82FF5CCDF9DAF1D5BFCB302880F21A7 /* PassthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC94F62CA778D52BAEE3A34FF3DDF60 /* PassthroughView.swift */; };
+		EBD6D92E8ECCD75A8A55A04EE491332F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F241D9F1E95D94F748B2122602EF61E2 /* OrderedDictionary+Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C8CF0F0605BCE6D56DB34DE612E35 /* OrderedDictionary+Initializers.swift */; };
+		F2EF52C4B85F4E1161C61A0E7A35CA0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF0570ED0A8373F1E20D45927FE70D /* Extensions.swift */; };
+		F36919CE1A6215A7D90AA74F59342468 /* OrderedDictionary+Partial MutableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80390D7E1AB0FE076E6E86C1BC9C3A9E /* OrderedDictionary+Partial MutableCollection.swift */; };
+		F68F9E7BAFC96A5285581E41B8CE9EB2 /* _HashTable+Bucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC28FABB3B2FCE9CD301950518BFFD7 /* _HashTable+Bucket.swift */; };
+		FA5D291DD73189B104954720535F8FBA /* SegmentioCellWithImageBeforeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E424824D8F8C5FB711564142032F406 /* SegmentioCellWithImageBeforeLabel.swift */; };
+		FBD8C81CD4E936B160BAA9B95DC7625F /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6C5C53E33E6AD7636C83B99B32BADC /* UIView+Appearance.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		82FBB31B836A8B7738D9734FCD72F11A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4874E7E655CEB4C01E4572AD903AEA21;
+			remoteInfo = FloatingPanel;
+		};
+		9EB6B6C1F16D4CA1F6D4C223790A2286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC65A64BAC8933AE10AE6B8314CB307;
+			remoteInfo = OrderedCollections;
+		};
+		A68FD6BAA71450DF847AF4DD33A18B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E02334B34978796A45D1BAFBF86A66;
+			remoteInfo = TensorFlowLiteTaskVision;
+		};
+		A90CAE577A24FC11D27921C8AC3A8795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCF7D29EC7396E4018DB1E49BC64FFE;
+			remoteInfo = "Segmentio-Segmentio";
+		};
+		B057D482B7A0B535632D857AADF3EBE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D946402EAE11D13E8A8CBB3B95D011;
+			remoteInfo = Segmentio;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1D0A3E6652A82CFA468B6462E3E19D9E /* Pods-Hackthon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hackthon.release.xcconfig"; sourceTree = "<group>"; };
-		476CF5A88A50FE36732B6868514DE435 /* Pods-Hackthon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hackthon.modulemap"; sourceTree = "<group>"; };
-		5445366111D3C8A16C8827745BBB8304 /* Pods-Hackthon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hackthon-Info.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7B324118638C3C8F76CDA10466E70055 /* Pods-Hackthon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hackthon-umbrella.h"; sourceTree = "<group>"; };
-		9B90C2446729D648E6632C92D0E9EB48 /* Pods-Hackthon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hackthon-dummy.m"; sourceTree = "<group>"; };
+		01625AEB0840169DFEDD4336BCD3A7A1 /* OrderedSet+CustomReflectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+CustomReflectable.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+CustomReflectable.swift"; sourceTree = "<group>"; };
+		0418FB971587E21CA9F26A3CB55D6145 /* _HashTable+CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "_HashTable+CustomStringConvertible.swift"; path = "Sources/OrderedCollections/HashTable/_HashTable+CustomStringConvertible.swift"; sourceTree = "<group>"; };
+		074C9E700AA2DD7E4F72B48AE43F31DD /* OrderedSet+Partial MutableCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Partial MutableCollection.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Partial MutableCollection.swift"; sourceTree = "<group>"; };
+		0CDA365E1BF36F78675DB4E301AB23ED /* OrderedSet+Invariants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Invariants.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Invariants.swift"; sourceTree = "<group>"; };
+		12A7B4FB678FD8A4F950B26EA525C09B /* OrderedSet+ExpressibleByArrayLiteral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+ExpressibleByArrayLiteral.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+ExpressibleByArrayLiteral.swift"; sourceTree = "<group>"; };
+		1354CB5D732F384547F988A47BEE7E20 /* SegmentioCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCell.swift; path = Segmentio/Source/Cells/SegmentioCell.swift; sourceTree = "<group>"; };
+		1395BB3923DF9CB5EA9E2EF76D9237F3 /* BadgeViewPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeViewPresenter.swift; path = Segmentio/Source/Badge/BadgeViewPresenter.swift; sourceTree = "<group>"; };
+		13C37CEB8211EA3C51CA534FC8CF62F1 /* SegmentioCellWithLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithLabel.swift; sourceTree = "<group>"; };
+		145845B78A7591B3E21795A1907E96E0 /* _HashTable+Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "_HashTable+Constants.swift"; path = "Sources/OrderedCollections/HashTable/_HashTable+Constants.swift"; sourceTree = "<group>"; };
+		14CCA4912BBFD92EC428A830C480109A /* Pods-Hackthon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hackthon-Info.plist"; sourceTree = "<group>"; };
+		173F863F1F84942F47AD5795BCD86356 /* SegmentioOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioOptions.swift; path = Segmentio/Source/SegmentioOptions.swift; sourceTree = "<group>"; };
+		1A0D991C02993334922CE2F7EE3B7D8D /* OrderedCollections-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrderedCollections-dummy.m"; sourceTree = "<group>"; };
+		21606D198DC3D7DD264190BA47822CB2 /* OrderedDictionary+CustomReflectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+CustomReflectable.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+CustomReflectable.swift"; sourceTree = "<group>"; };
+		23F9E4D2E90C370BCA59596899DE7B61 /* BadgeWithCounterViewStandardSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewStandardSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewStandardSized.xib; sourceTree = "<group>"; };
+		2762E2BF0B3ACFF61F0DE2E38E97AF24 /* _HashTable+Testing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "_HashTable+Testing.swift"; path = "Sources/OrderedCollections/HashTable/_HashTable+Testing.swift"; sourceTree = "<group>"; };
+		2767BB773CAE7178310EE574410A9BFB /* Segmentio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segmentio.swift; path = Segmentio/Source/Segmentio.swift; sourceTree = "<group>"; };
+		2ABC5C751BAF072992BE87C5BDE515C5 /* OrderedDictionary+Elements+SubSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Elements+SubSequence.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Elements+SubSequence.swift"; sourceTree = "<group>"; };
+		2B8E2A072AAFD8631110C9D1B2E9701D /* TensorFlowLiteTaskVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteTaskVision.release.xcconfig; sourceTree = "<group>"; };
+		2FDB14C8CE5EF21852D8422A979105EA /* OrderedSet+Partial SetAlgebra+Predicates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Partial SetAlgebra+Predicates.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra+Predicates.swift"; sourceTree = "<group>"; };
+		2FDCA9A6A21A4903F2E080C6DBF27F04 /* OrderedCollections-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderedCollections-umbrella.h"; sourceTree = "<group>"; };
+		329E2A6F8B5A204BAB3A55C3B5944A8A /* OrderedCollections-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OrderedCollections-Info.plist"; sourceTree = "<group>"; };
+		32BF0570ED0A8373F1E20D45927FE70D /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		343EE066A8953291CF199DDC36B005B4 /* OrderedSet+Testing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Testing.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Testing.swift"; sourceTree = "<group>"; };
+		373A73834A03884704BEE49B68D372AB /* _HashTable+UnsafeHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "_HashTable+UnsafeHandle.swift"; path = "Sources/OrderedCollections/HashTable/_HashTable+UnsafeHandle.swift"; sourceTree = "<group>"; };
+		38FDE83DDB784CB09DC08CF26C410499 /* FloatingPanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FloatingPanel-dummy.m"; sourceTree = "<group>"; };
+		3A42315CDDEC7B5988DEF62DB8F94BB0 /* OrderedCollections.docc */ = {isa = PBXFileReference; includeInIndex = 1; name = OrderedCollections.docc; path = Sources/OrderedCollections/OrderedCollections.docc; sourceTree = "<group>"; };
+		3AC98865598CFED64FAC1012E0B4597A /* OrderedDictionary+Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Deprecations.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Deprecations.swift"; sourceTree = "<group>"; };
+		3D411C8F1B5CF5235B16DFECAC8C4A95 /* OrderedDictionary+CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+CustomStringConvertible.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+CustomStringConvertible.swift"; sourceTree = "<group>"; };
+		3EAC6EFA5A8569E26E1A6B566C8AE2DD /* _HashTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _HashTable.swift; path = Sources/OrderedCollections/HashTable/_HashTable.swift; sourceTree = "<group>"; };
+		4084663096B1A02C46B914C65E1142E7 /* RoundImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundImageView.swift; path = Segmentio/Source/Extensions/RoundImageView.swift; sourceTree = "<group>"; };
+		4305EDBF92200EC522EC9F5E3D0F0BDC /* OrderedSet+Diffing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Diffing.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Diffing.swift"; sourceTree = "<group>"; };
+		4468A4C31A6E3E81104111F12237CE25 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Sources/Core.swift; sourceTree = "<group>"; };
+		44F74D63B4FD080FECED3C4A349807EB /* OrderedDictionary+CustomDebugStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+CustomDebugStringConvertible.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+CustomDebugStringConvertible.swift"; sourceTree = "<group>"; };
+		452F632D9367FA987ACDDA215E43F711 /* OrderedDictionary+Partial RangeReplaceableCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Partial RangeReplaceableCollection.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Partial RangeReplaceableCollection.swift"; sourceTree = "<group>"; };
+		45EFF7DABDD8C50400F1C3F99B3D1F29 /* SegmentioCellWithImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImage.swift; path = Segmentio/Source/Cells/SegmentioCellWithImage.swift; sourceTree = "<group>"; };
+		4681F947CD80B9F7AFB499FA547AECBA /* OrderedSet+Partial SetAlgebra+Operations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Partial SetAlgebra+Operations.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra+Operations.swift"; sourceTree = "<group>"; };
+		4804AB8FD22E95312D27734EC5491492 /* OrderedCollections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderedCollections.debug.xcconfig; sourceTree = "<group>"; };
+		4843D75F8B8914142B5286743B4DFEC8 /* Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Position.swift; path = Sources/Position.swift; sourceTree = "<group>"; };
+		4915592A5250E320581C02D7689194CA /* Pods-Hackthon-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hackthon-frameworks.sh"; sourceTree = "<group>"; };
+		4B6C5C53E33E6AD7636C83B99B32BADC /* UIView+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Appearance.swift"; path = "Segmentio/Source/Extensions/UIView+Appearance.swift"; sourceTree = "<group>"; };
+		4B8DBBDE4AECF1A57DEEA55572426309 /* Pods-Hackthon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hackthon-dummy.m"; sourceTree = "<group>"; };
+		4E424824D8F8C5FB711564142032F406 /* SegmentioCellWithImageBeforeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageBeforeLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageBeforeLabel.swift; sourceTree = "<group>"; };
+		52319B801BDB2C1E87424B179058CEF2 /* BackdropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackdropView.swift; path = Sources/BackdropView.swift; sourceTree = "<group>"; };
+		58ED5645AFDDA12269A79009226185C0 /* _UnsafeBitset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _UnsafeBitset.swift; path = Sources/OrderedCollections/Utilities/_UnsafeBitset.swift; sourceTree = "<group>"; };
+		5C3A6A228D05554FCE6A9C168C09ECFA /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/Logger.swift; sourceTree = "<group>"; };
+		5CB6DC85D023F7065D30CBCFFEBE991E /* FloatingPanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingPanel-prefix.pch"; sourceTree = "<group>"; };
+		5F1580370CCEED6A5259140D15897235 /* _Hashtable+Header.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "_Hashtable+Header.swift"; path = "Sources/OrderedCollections/HashTable/_Hashtable+Header.swift"; sourceTree = "<group>"; };
+		6189871ECE52BAB373A0EDA0281705FB /* Segmentio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Segmentio-dummy.m"; sourceTree = "<group>"; };
+		62284E2BA62EC242F41B5E72527071E7 /* SegmentioCellWithImageUnderLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageUnderLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageUnderLabel.swift; sourceTree = "<group>"; };
+		68F2397A4E52FEE465607C3A5CB48E4B /* Pods-Hackthon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hackthon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69CA778209BD62EB36F2393DFE7011C1 /* OrderedDictionary+ExpressibleByDictionaryLiteral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+ExpressibleByDictionaryLiteral.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+ExpressibleByDictionaryLiteral.swift"; sourceTree = "<group>"; };
+		6A26BA05DEBF49F598C3428A8860100B /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Behavior.swift; sourceTree = "<group>"; };
+		6C3C01A7131E381F713FC51AD781844E /* Segmentio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Segmentio.release.xcconfig; sourceTree = "<group>"; };
+		6FAAB7D3DE9B2564509ABD18687E938E /* FloatingPanel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FloatingPanel; path = FloatingPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7076EB3C061DDB8068E9942C6254AE58 /* OrderedSet+Initializers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Initializers.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Initializers.swift"; sourceTree = "<group>"; };
+		72FAC2A67352B44D37A4BADDBC2641C5 /* LayoutAnchoring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAnchoring.swift; path = Sources/LayoutAnchoring.swift; sourceTree = "<group>"; };
+		730E64FA31D31F56346D5D91801452E0 /* OrderedCollections */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OrderedCollections; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		753F2BFBDEDDC1A86B2F133C9446A283 /* TensorFlowLiteTaskVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TensorFlowLiteTaskVision.framework; path = Frameworks/TensorFlowLiteTaskVision.framework; sourceTree = "<group>"; };
+		754E1657E41D1FD32F6C4412B1C89661 /* OrderedSet+CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+CustomStringConvertible.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+CustomStringConvertible.swift"; sourceTree = "<group>"; };
+		7A82CD11422DA2F274AA8F10F82F8C0C /* Segmentio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Segmentio-Info.plist"; sourceTree = "<group>"; };
+		7E79AD62A0B921E70197F024F6F7A550 /* OrderedCollections-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderedCollections-prefix.pch"; sourceTree = "<group>"; };
+		80390D7E1AB0FE076E6E86C1BC9C3A9E /* OrderedDictionary+Partial MutableCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Partial MutableCollection.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Partial MutableCollection.swift"; sourceTree = "<group>"; };
+		806A8D764BAC521D8EFF1030329C5131 /* OrderedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedDictionary.swift; path = Sources/OrderedCollections/OrderedDictionary/OrderedDictionary.swift; sourceTree = "<group>"; };
+		82A4E964B65ED62865E8E4464FEE24FB /* OrderedDictionary+Invariants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Invariants.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Invariants.swift"; sourceTree = "<group>"; };
+		881A1483FAC339C5EB15764B0F4AF9DB /* GrabberView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrabberView.swift; path = Sources/GrabberView.swift; sourceTree = "<group>"; };
+		8D7FE837FD3C1AA75A25A63E4B61DDD1 /* Pods-Hackthon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hackthon.modulemap"; sourceTree = "<group>"; };
+		8D950C5F1E10553431A2992E0CF20801 /* FloatingPanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FloatingPanel.modulemap; sourceTree = "<group>"; };
+		8F4ADBC719FAA3F2CC6713F7D0D9CB8E /* OrderedSet+Partial SetAlgebra+Basics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Partial SetAlgebra+Basics.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra+Basics.swift"; sourceTree = "<group>"; };
+		8F4C8CF0F0605BCE6D56DB34DE612E35 /* OrderedDictionary+Initializers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Initializers.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Initializers.swift"; sourceTree = "<group>"; };
+		93BB04FA8C3734A4FBE1DC25DF829BDC /* OrderedDictionary+Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Hashable.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Hashable.swift"; sourceTree = "<group>"; };
+		940B766C1A7BDD0F4BEB9705F9BDFCCD /* OrderedSet+UnorderedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+UnorderedView.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+UnorderedView.swift"; sourceTree = "<group>"; };
+		94EC49D9E47FF988CDDF0F202FBE1A81 /* OrderedSet+CustomDebugStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+CustomDebugStringConvertible.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+CustomDebugStringConvertible.swift"; sourceTree = "<group>"; };
+		94F4034832DC3F0F7CD2D29928EFEA65 /* OrderedDictionary+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Codable.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Codable.swift"; sourceTree = "<group>"; };
+		96618D91281E61C9D1C6858C64959B8F /* OrderedCollections.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OrderedCollections.modulemap; sourceTree = "<group>"; };
+		96C48887BA30062DA0558ACD5F80D065 /* OrderedSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedSet.swift; path = Sources/OrderedCollections/OrderedSet/OrderedSet.swift; sourceTree = "<group>"; };
+		97E32FF7102BBEA245ABA86A5A6341A3 /* Pods-Hackthon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hackthon.debug.xcconfig"; sourceTree = "<group>"; };
+		9A693E8478456D59A0E393F38B35EB93 /* OrderedSet+SubSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+SubSequence.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+SubSequence.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E314646D7FA1F1BDBB395D1DE6A5A0C /* SegmentioCellWithImageAfterLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageAfterLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageAfterLabel.swift; sourceTree = "<group>"; };
+		9FC28FABB3B2FCE9CD301950518BFFD7 /* _HashTable+Bucket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "_HashTable+Bucket.swift"; path = "Sources/OrderedCollections/HashTable/_HashTable+Bucket.swift"; sourceTree = "<group>"; };
 		A015F65F88D37C6CADC901F25B1EFFF2 /* Pods-Hackthon */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Hackthon"; path = Pods_Hackthon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE3E3938E6076805722E5C0B96A0ED07 /* Pods-Hackthon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hackthon.debug.xcconfig"; sourceTree = "<group>"; };
-		CFC2398EC73B8A70BC5CFC0670587238 /* Pods-Hackthon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hackthon-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E891AC75A3434A746618613462AD152F /* Pods-Hackthon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hackthon-acknowledgements.plist"; sourceTree = "<group>"; };
+		A0BD5DA64D4F0E97147E8A571E5873CF /* ResourceBundle-Segmentio-Segmentio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Segmentio-Segmentio-Info.plist"; sourceTree = "<group>"; };
+		A39D2AD6DAC4D24C07F868F8C6F85ACF /* _HashTable+BucketIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "_HashTable+BucketIterator.swift"; path = "Sources/OrderedCollections/HashTable/_HashTable+BucketIterator.swift"; sourceTree = "<group>"; };
+		A53A91E995996027D42BCEB699E39A74 /* OrderedSet+UnstableInternals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+UnstableInternals.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+UnstableInternals.swift"; sourceTree = "<group>"; };
+		A81D7D9504B728B73E24F3E8E7E94B76 /* TensorFlowLiteTaskVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteTaskVision.debug.xcconfig; sourceTree = "<group>"; };
+		A913BE74218AB44D70BC369ACB303EE1 /* LayoutProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProperties.swift; path = Sources/LayoutProperties.swift; sourceTree = "<group>"; };
+		ACC94F62CA778D52BAEE3A34FF3DDF60 /* PassthroughView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughView.swift; path = Sources/PassthroughView.swift; sourceTree = "<group>"; };
+		B04DB11343726618AAE77C463A2322DF /* OrderedSet+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Equatable.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Equatable.swift"; sourceTree = "<group>"; };
+		B31AE2703909CF5A9484E33430012032 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
+		B32546D7AE8FBF424FCD6B59CB52879F /* BadgeWithCounterViewBigSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewBigSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewBigSized.xib; sourceTree = "<group>"; };
+		B34887A3E9B483BD77870BF9FCD8A046 /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Sources/Layout.swift; sourceTree = "<group>"; };
+		B9D666D91377B8AC007F10B5D8349562 /* OrderedSet+ReserveCapacity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+ReserveCapacity.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+ReserveCapacity.swift"; sourceTree = "<group>"; };
+		BB60B39F7AFFF28AFE696C2DC10103C4 /* OrderedSet+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Codable.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Codable.swift"; sourceTree = "<group>"; };
+		BF342D1A3AA953199328927E0FEBDF81 /* RandomAccessCollection+Offsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RandomAccessCollection+Offsets.swift"; path = "Sources/OrderedCollections/Utilities/RandomAccessCollection+Offsets.swift"; sourceTree = "<group>"; };
+		C8540B6DFD1F723BB9EABD701498C99C /* OrderedSet+RandomAccessCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+RandomAccessCollection.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+RandomAccessCollection.swift"; sourceTree = "<group>"; };
+		C866E434B6D801BFBAD15FF1044A4DD6 /* Pods-Hackthon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hackthon-umbrella.h"; sourceTree = "<group>"; };
+		C89E7049A34BD8C2135FFFBD27304DC3 /* Transitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transitioning.swift; path = Sources/Transitioning.swift; sourceTree = "<group>"; };
+		C8E9E73C7F0071613B39262D1192A260 /* SegmentioCellWithImageOverLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageOverLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageOverLabel.swift; sourceTree = "<group>"; };
+		C8F2C375082C9FA86026FA0A69016000 /* Segmentio-Segmentio */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Segmentio-Segmentio"; path = Segmentio.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C906BC1EFFFDC437EEC1A9B0B5F073F8 /* SurfaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SurfaceView.swift; path = Sources/SurfaceView.swift; sourceTree = "<group>"; };
+		CBE66A58C6692BAAE56EFE6F9A7F3E02 /* Controller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Controller.swift; path = Sources/Controller.swift; sourceTree = "<group>"; };
+		CD4B053983879CFBB9B18ED334E0A3B3 /* BadgeWithCounterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeWithCounterView.swift; path = Segmentio/Source/Badge/Views/BadgeWithCounterView.swift; sourceTree = "<group>"; };
+		CECA29D67D79783134E0C23A6B013195 /* OrderedDictionary+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Sequence.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Sequence.swift"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D7E3E78D4377F8720771A4B59DB4F0A6 /* OrderedSet+Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Hashable.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Hashable.swift"; sourceTree = "<group>"; };
+		D81BAD4704CEEAE61D0CBE11C3326B1D /* Segmentio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Segmentio.debug.xcconfig; sourceTree = "<group>"; };
+		DC713808A979DD537028934980332B60 /* OrderedSet+Insertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Insertions.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Insertions.swift"; sourceTree = "<group>"; };
+		DD9E0860C7E4BD292225040E5915151D /* Segmentio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segmentio-umbrella.h"; sourceTree = "<group>"; };
+		DE628419D527EAD0A8E08DA25C37F8FE /* FloatingPanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingPanel-umbrella.h"; sourceTree = "<group>"; };
+		E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Segmentio; path = Segmentio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24097AEB4F9DE35A8731250EFB4CF2A /* Pods-Hackthon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hackthon-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4575CB9AF10DC7D85C18EE1DEC44A6E /* OrderedDictionary+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Equatable.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Equatable.swift"; sourceTree = "<group>"; };
+		E7FCDE07A89677151F45C9B2F320ECA0 /* OrderedDictionary+Values.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Values.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Values.swift"; sourceTree = "<group>"; };
+		E995C253D1EEBD597F97FE6E2A04E7D2 /* FloatingPanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingPanel.debug.xcconfig; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EEE44F10F89AC65C2D1CCACE085D81D5 /* FloatingPanel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FloatingPanel-Info.plist"; sourceTree = "<group>"; };
+		F1543D92E24CEE360D084BDC3C128EB3 /* OrderedCollections.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderedCollections.release.xcconfig; sourceTree = "<group>"; };
+		F248DA77F2D9DC93E2E738933F451A1B /* Pods-Hackthon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hackthon.release.xcconfig"; sourceTree = "<group>"; };
+		F33C794E29F777B03063A2F3B11D9041 /* Segmentio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Segmentio.modulemap; sourceTree = "<group>"; };
+		F5764DDF80E9DC66C42388E30EE429A0 /* OrderedDictionary+Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedDictionary+Elements.swift"; path = "Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Elements.swift"; sourceTree = "<group>"; };
+		F588C56A68F0F7A28A4341735641EE4F /* OrderedSet+Partial RangeReplaceableCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OrderedSet+Partial RangeReplaceableCollection.swift"; path = "Sources/OrderedCollections/OrderedSet/OrderedSet+Partial RangeReplaceableCollection.swift"; sourceTree = "<group>"; };
+		FCADBAD9FAFAB551F228D5903D642927 /* Segmentio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segmentio-prefix.pch"; sourceTree = "<group>"; };
+		FE3304041DE6B61503DFA7EE6637ABD4 /* FloatingPanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingPanel.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AACFCA06F08A7CA8F289945EABA25942 /* Frameworks */ = {
+		483C164248E91E49D808F5C7B6B6001E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AD6B1B84B344CE065CA89DF67D0BC55 /* Foundation.framework in Frameworks */,
+				9590F96CABA49AC084F418820D4349A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A374A005BB6591010822D0815E2B9491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF472590F7E17200944CB3BE693B9D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716F1AB371C1DBC5A91F85053DE427FD /* Foundation.framework in Frameworks */,
+				8D158FB7773B86AAE9F81A3DFF8F7275 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57C4F8025356B98BA08586375727960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD6D92E8ECCD75A8A55A04EE491332F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03B86767666D1DE54D1BF876A60CF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1669EC0C3BBE9E0BB16C1FAA8E005C40 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34B71FFD8C356E290617B8E47A0581F3 /* Products */ = {
+		05860C09F6824B67491194E934E195B5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A015F65F88D37C6CADC901F25B1EFFF2 /* Pods-Hackthon */,
+				A81D7D9504B728B73E24F3E8E7E94B76 /* TensorFlowLiteTaskVision.debug.xcconfig */,
+				2B8E2A072AAFD8631110C9D1B2E9701D /* TensorFlowLiteTaskVision.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/TensorFlowLiteTaskVision";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		12CAA91B42288974869495B1C77A55C9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				8D950C5F1E10553431A2992E0CF20801 /* FloatingPanel.modulemap */,
+				38FDE83DDB784CB09DC08CF26C410499 /* FloatingPanel-dummy.m */,
+				EEE44F10F89AC65C2D1CCACE085D81D5 /* FloatingPanel-Info.plist */,
+				5CB6DC85D023F7065D30CBCFFEBE991E /* FloatingPanel-prefix.pch */,
+				DE628419D527EAD0A8E08DA25C37F8FE /* FloatingPanel-umbrella.h */,
+				E995C253D1EEBD597F97FE6E2A04E7D2 /* FloatingPanel.debug.xcconfig */,
+				FE3304041DE6B61503DFA7EE6637ABD4 /* FloatingPanel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FloatingPanel";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F9C940A472133C7021DD65844AA3BD4 /* Pods-Hackthon */ = {
+			isa = PBXGroup;
+			children = (
+				8D7FE837FD3C1AA75A25A63E4B61DDD1 /* Pods-Hackthon.modulemap */,
+				68F2397A4E52FEE465607C3A5CB48E4B /* Pods-Hackthon-acknowledgements.markdown */,
+				E24097AEB4F9DE35A8731250EFB4CF2A /* Pods-Hackthon-acknowledgements.plist */,
+				4B8DBBDE4AECF1A57DEEA55572426309 /* Pods-Hackthon-dummy.m */,
+				4915592A5250E320581C02D7689194CA /* Pods-Hackthon-frameworks.sh */,
+				14CCA4912BBFD92EC428A830C480109A /* Pods-Hackthon-Info.plist */,
+				C866E434B6D801BFBAD15FF1044A4DD6 /* Pods-Hackthon-umbrella.h */,
+				97E32FF7102BBEA245ABA86A5A6341A3 /* Pods-Hackthon.debug.xcconfig */,
+				F248DA77F2D9DC93E2E738933F451A1B /* Pods-Hackthon.release.xcconfig */,
+			);
+			name = "Pods-Hackthon";
+			path = "Target Support Files/Pods-Hackthon";
+			sourceTree = "<group>";
+		};
+		34D6D8134F596FBF70C2A42A9C72119B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96618D91281E61C9D1C6858C64959B8F /* OrderedCollections.modulemap */,
+				1A0D991C02993334922CE2F7EE3B7D8D /* OrderedCollections-dummy.m */,
+				329E2A6F8B5A204BAB3A55C3B5944A8A /* OrderedCollections-Info.plist */,
+				7E79AD62A0B921E70197F024F6F7A550 /* OrderedCollections-prefix.pch */,
+				2FDCA9A6A21A4903F2E080C6DBF27F04 /* OrderedCollections-umbrella.h */,
+				4804AB8FD22E95312D27734EC5491492 /* OrderedCollections.debug.xcconfig */,
+				F1543D92E24CEE360D084BDC3C128EB3 /* OrderedCollections.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OrderedCollections";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		65D9D73774249DEC4EA625BFD0D30E59 /* TensorFlowLiteTaskVision */ = {
+			isa = PBXGroup;
+			children = (
+				D5501CDC5BE6315A9D29E9C5A0BA2096 /* Frameworks */,
+				05860C09F6824B67491194E934E195B5 /* Support Files */,
+			);
+			name = TensorFlowLiteTaskVision;
+			path = TensorFlowLiteTaskVision;
+			sourceTree = "<group>";
+		};
+		93698DB66DD4243E920165305F940BFE /* FloatingPanel */ = {
+			isa = PBXGroup;
+			children = (
+				52319B801BDB2C1E87424B179058CEF2 /* BackdropView.swift */,
+				6A26BA05DEBF49F598C3428A8860100B /* Behavior.swift */,
+				CBE66A58C6692BAAE56EFE6F9A7F3E02 /* Controller.swift */,
+				4468A4C31A6E3E81104111F12237CE25 /* Core.swift */,
+				32BF0570ED0A8373F1E20D45927FE70D /* Extensions.swift */,
+				881A1483FAC339C5EB15764B0F4AF9DB /* GrabberView.swift */,
+				B34887A3E9B483BD77870BF9FCD8A046 /* Layout.swift */,
+				72FAC2A67352B44D37A4BADDBC2641C5 /* LayoutAnchoring.swift */,
+				A913BE74218AB44D70BC369ACB303EE1 /* LayoutProperties.swift */,
+				5C3A6A228D05554FCE6A9C168C09ECFA /* Logger.swift */,
+				ACC94F62CA778D52BAEE3A34FF3DDF60 /* PassthroughView.swift */,
+				4843D75F8B8914142B5286743B4DFEC8 /* Position.swift */,
+				B31AE2703909CF5A9484E33430012032 /* State.swift */,
+				C906BC1EFFFDC437EEC1A9B0B5F073F8 /* SurfaceView.swift */,
+				C89E7049A34BD8C2135FFFBD27304DC3 /* Transitioning.swift */,
+				12CAA91B42288974869495B1C77A55C9 /* Support Files */,
+			);
+			name = FloatingPanel;
+			path = FloatingPanel;
+			sourceTree = "<group>";
+		};
+		94FD062682916AF41349F58BE81C7F6B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F9C940A472133C7021DD65844AA3BD4 /* Pods-Hackthon */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9A81120BA8D40411ABE4A7CC15FCB727 /* Segmentio */ = {
+			isa = PBXGroup;
+			children = (
+				1395BB3923DF9CB5EA9E2EF76D9237F3 /* BadgeViewPresenter.swift */,
+				CD4B053983879CFBB9B18ED334E0A3B3 /* BadgeWithCounterView.swift */,
+				4084663096B1A02C46B914C65E1142E7 /* RoundImageView.swift */,
+				2767BB773CAE7178310EE574410A9BFB /* Segmentio.swift */,
+				1354CB5D732F384547F988A47BEE7E20 /* SegmentioCell.swift */,
+				45EFF7DABDD8C50400F1C3F99B3D1F29 /* SegmentioCellWithImage.swift */,
+				9E314646D7FA1F1BDBB395D1DE6A5A0C /* SegmentioCellWithImageAfterLabel.swift */,
+				4E424824D8F8C5FB711564142032F406 /* SegmentioCellWithImageBeforeLabel.swift */,
+				C8E9E73C7F0071613B39262D1192A260 /* SegmentioCellWithImageOverLabel.swift */,
+				62284E2BA62EC242F41B5E72527071E7 /* SegmentioCellWithImageUnderLabel.swift */,
+				13C37CEB8211EA3C51CA534FC8CF62F1 /* SegmentioCellWithLabel.swift */,
+				173F863F1F84942F47AD5795BCD86356 /* SegmentioOptions.swift */,
+				4B6C5C53E33E6AD7636C83B99B32BADC /* UIView+Appearance.swift */,
+				D14A66A7F57EEA729965185650349245 /* Resources */,
+				A5DEDF9912F93C5F5D801705D57472C9 /* Support Files */,
+			);
+			name = Segmentio;
+			path = Segmentio;
+			sourceTree = "<group>";
+		};
+		A5DEDF9912F93C5F5D801705D57472C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0BD5DA64D4F0E97147E8A571E5873CF /* ResourceBundle-Segmentio-Segmentio-Info.plist */,
+				F33C794E29F777B03063A2F3B11D9041 /* Segmentio.modulemap */,
+				6189871ECE52BAB373A0EDA0281705FB /* Segmentio-dummy.m */,
+				7A82CD11422DA2F274AA8F10F82F8C0C /* Segmentio-Info.plist */,
+				FCADBAD9FAFAB551F228D5903D642927 /* Segmentio-prefix.pch */,
+				DD9E0860C7E4BD292225040E5915151D /* Segmentio-umbrella.h */,
+				D81BAD4704CEEAE61D0CBE11C3326B1D /* Segmentio.debug.xcconfig */,
+				6C3C01A7131E381F713FC51AD781844E /* Segmentio.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Segmentio";
+			sourceTree = "<group>";
+		};
+		AA57BD831EA44D6A3234CE04CB94F19B /* OrderedCollections */ = {
+			isa = PBXGroup;
+			children = (
+				3EAC6EFA5A8569E26E1A6B566C8AE2DD /* _HashTable.swift */,
+				9FC28FABB3B2FCE9CD301950518BFFD7 /* _HashTable+Bucket.swift */,
+				A39D2AD6DAC4D24C07F868F8C6F85ACF /* _HashTable+BucketIterator.swift */,
+				145845B78A7591B3E21795A1907E96E0 /* _HashTable+Constants.swift */,
+				0418FB971587E21CA9F26A3CB55D6145 /* _HashTable+CustomStringConvertible.swift */,
+				5F1580370CCEED6A5259140D15897235 /* _Hashtable+Header.swift */,
+				2762E2BF0B3ACFF61F0DE2E38E97AF24 /* _HashTable+Testing.swift */,
+				373A73834A03884704BEE49B68D372AB /* _HashTable+UnsafeHandle.swift */,
+				58ED5645AFDDA12269A79009226185C0 /* _UnsafeBitset.swift */,
+				3A42315CDDEC7B5988DEF62DB8F94BB0 /* OrderedCollections.docc */,
+				806A8D764BAC521D8EFF1030329C5131 /* OrderedDictionary.swift */,
+				94F4034832DC3F0F7CD2D29928EFEA65 /* OrderedDictionary+Codable.swift */,
+				44F74D63B4FD080FECED3C4A349807EB /* OrderedDictionary+CustomDebugStringConvertible.swift */,
+				21606D198DC3D7DD264190BA47822CB2 /* OrderedDictionary+CustomReflectable.swift */,
+				3D411C8F1B5CF5235B16DFECAC8C4A95 /* OrderedDictionary+CustomStringConvertible.swift */,
+				3AC98865598CFED64FAC1012E0B4597A /* OrderedDictionary+Deprecations.swift */,
+				F5764DDF80E9DC66C42388E30EE429A0 /* OrderedDictionary+Elements.swift */,
+				2ABC5C751BAF072992BE87C5BDE515C5 /* OrderedDictionary+Elements+SubSequence.swift */,
+				E4575CB9AF10DC7D85C18EE1DEC44A6E /* OrderedDictionary+Equatable.swift */,
+				69CA778209BD62EB36F2393DFE7011C1 /* OrderedDictionary+ExpressibleByDictionaryLiteral.swift */,
+				93BB04FA8C3734A4FBE1DC25DF829BDC /* OrderedDictionary+Hashable.swift */,
+				8F4C8CF0F0605BCE6D56DB34DE612E35 /* OrderedDictionary+Initializers.swift */,
+				82A4E964B65ED62865E8E4464FEE24FB /* OrderedDictionary+Invariants.swift */,
+				80390D7E1AB0FE076E6E86C1BC9C3A9E /* OrderedDictionary+Partial MutableCollection.swift */,
+				452F632D9367FA987ACDDA215E43F711 /* OrderedDictionary+Partial RangeReplaceableCollection.swift */,
+				CECA29D67D79783134E0C23A6B013195 /* OrderedDictionary+Sequence.swift */,
+				E7FCDE07A89677151F45C9B2F320ECA0 /* OrderedDictionary+Values.swift */,
+				96C48887BA30062DA0558ACD5F80D065 /* OrderedSet.swift */,
+				BB60B39F7AFFF28AFE696C2DC10103C4 /* OrderedSet+Codable.swift */,
+				94EC49D9E47FF988CDDF0F202FBE1A81 /* OrderedSet+CustomDebugStringConvertible.swift */,
+				01625AEB0840169DFEDD4336BCD3A7A1 /* OrderedSet+CustomReflectable.swift */,
+				754E1657E41D1FD32F6C4412B1C89661 /* OrderedSet+CustomStringConvertible.swift */,
+				4305EDBF92200EC522EC9F5E3D0F0BDC /* OrderedSet+Diffing.swift */,
+				B04DB11343726618AAE77C463A2322DF /* OrderedSet+Equatable.swift */,
+				12A7B4FB678FD8A4F950B26EA525C09B /* OrderedSet+ExpressibleByArrayLiteral.swift */,
+				D7E3E78D4377F8720771A4B59DB4F0A6 /* OrderedSet+Hashable.swift */,
+				7076EB3C061DDB8068E9942C6254AE58 /* OrderedSet+Initializers.swift */,
+				DC713808A979DD537028934980332B60 /* OrderedSet+Insertions.swift */,
+				0CDA365E1BF36F78675DB4E301AB23ED /* OrderedSet+Invariants.swift */,
+				074C9E700AA2DD7E4F72B48AE43F31DD /* OrderedSet+Partial MutableCollection.swift */,
+				F588C56A68F0F7A28A4341735641EE4F /* OrderedSet+Partial RangeReplaceableCollection.swift */,
+				8F4ADBC719FAA3F2CC6713F7D0D9CB8E /* OrderedSet+Partial SetAlgebra+Basics.swift */,
+				4681F947CD80B9F7AFB499FA547AECBA /* OrderedSet+Partial SetAlgebra+Operations.swift */,
+				2FDB14C8CE5EF21852D8422A979105EA /* OrderedSet+Partial SetAlgebra+Predicates.swift */,
+				C8540B6DFD1F723BB9EABD701498C99C /* OrderedSet+RandomAccessCollection.swift */,
+				B9D666D91377B8AC007F10B5D8349562 /* OrderedSet+ReserveCapacity.swift */,
+				9A693E8478456D59A0E393F38B35EB93 /* OrderedSet+SubSequence.swift */,
+				343EE066A8953291CF199DDC36B005B4 /* OrderedSet+Testing.swift */,
+				940B766C1A7BDD0F4BEB9705F9BDFCCD /* OrderedSet+UnorderedView.swift */,
+				A53A91E995996027D42BCEB699E39A74 /* OrderedSet+UnstableInternals.swift */,
+				BF342D1A3AA953199328927E0FEBDF81 /* RandomAccessCollection+Offsets.swift */,
+				34D6D8134F596FBF70C2A42A9C72119B /* Support Files */,
+			);
+			name = OrderedCollections;
+			path = OrderedCollections;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				34B71FFD8C356E290617B8E47A0581F3 /* Products */,
-				D8A0DEBA5B365EFF555B81DC1931CC3E /* Targets Support Files */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DF548BC71E9BB6059D2F9D0DB465662B /* Pods */,
+				D2848AA479FB5868CFF26353C2D12618 /* Products */,
+				94FD062682916AF41349F58BE81C7F6B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D14A66A7F57EEA729965185650349245 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				B32546D7AE8FBF424FCD6B59CB52879F /* BadgeWithCounterViewBigSized.xib */,
+				23F9E4D2E90C370BCA59596899DE7B61 /* BadgeWithCounterViewStandardSized.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D2848AA479FB5868CFF26353C2D12618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FAAB7D3DE9B2564509ABD18687E938E /* FloatingPanel */,
+				730E64FA31D31F56346D5D91801452E0 /* OrderedCollections */,
+				A015F65F88D37C6CADC901F25B1EFFF2 /* Pods-Hackthon */,
+				E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio */,
+				C8F2C375082C9FA86026FA0A69016000 /* Segmentio-Segmentio */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5501CDC5BE6315A9D29E9C5A0BA2096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				753F2BFBDEDDC1A86B2F133C9446A283 /* TensorFlowLiteTaskVision.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8A0DEBA5B365EFF555B81DC1931CC3E /* Targets Support Files */ = {
+		DF548BC71E9BB6059D2F9D0DB465662B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F3D714CD85892E9F49817D6DF1FDDD21 /* Pods-Hackthon */,
+				93698DB66DD4243E920165305F940BFE /* FloatingPanel */,
+				AA57BD831EA44D6A3234CE04CB94F19B /* OrderedCollections */,
+				9A81120BA8D40411ABE4A7CC15FCB727 /* Segmentio */,
+				65D9D73774249DEC4EA625BFD0D30E59 /* TensorFlowLiteTaskVision */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F3D714CD85892E9F49817D6DF1FDDD21 /* Pods-Hackthon */ = {
-			isa = PBXGroup;
-			children = (
-				476CF5A88A50FE36732B6868514DE435 /* Pods-Hackthon.modulemap */,
-				CFC2398EC73B8A70BC5CFC0670587238 /* Pods-Hackthon-acknowledgements.markdown */,
-				E891AC75A3434A746618613462AD152F /* Pods-Hackthon-acknowledgements.plist */,
-				9B90C2446729D648E6632C92D0E9EB48 /* Pods-Hackthon-dummy.m */,
-				5445366111D3C8A16C8827745BBB8304 /* Pods-Hackthon-Info.plist */,
-				7B324118638C3C8F76CDA10466E70055 /* Pods-Hackthon-umbrella.h */,
-				AE3E3938E6076805722E5C0B96A0ED07 /* Pods-Hackthon.debug.xcconfig */,
-				1D0A3E6652A82CFA468B6462E3E19D9E /* Pods-Hackthon.release.xcconfig */,
-			);
-			name = "Pods-Hackthon";
-			path = "Target Support Files/Pods-Hackthon";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E9B2B2131C860EDA69AEAB8CD22D974D /* Headers */ = {
+		D0F9F91C399A74887540C5378F3B20A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F9F264E2E936D8B7B3EDE137D8CC5ED /* Pods-Hackthon-umbrella.h in Headers */,
+				D4543B64BCBF8921672B19042EA9804B /* Segmentio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12EAE9A9169EE89C718B2C303BC19A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF56F9B15A0736F6646BA03DC20C5F4 /* OrderedCollections-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D446FFE7B6728C1BDE092BB31F1DCC66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF75F852A0EB1C9C67A4B593883A9D70 /* Pods-Hackthon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F1E1EBF83F19100B7EABB591F1D634 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0EDBA61967D32C87F4A9AE587BBC30 /* FloatingPanel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A5D35FAA26E2A2B46BC62DF0B39F9524 /* Pods-Hackthon */ = {
+		1DC65A64BAC8933AE10AE6B8314CB307 /* OrderedCollections */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18BE9CBE9115EF265105957E393FE083 /* Build configuration list for PBXNativeTarget "Pods-Hackthon" */;
+			buildConfigurationList = BE1C32759B44C988057D4536C4BF0077 /* Build configuration list for PBXNativeTarget "OrderedCollections" */;
 			buildPhases = (
-				E9B2B2131C860EDA69AEAB8CD22D974D /* Headers */,
-				95799ACCA2576E2FB54B1732748FC6C8 /* Sources */,
-				AACFCA06F08A7CA8F289945EABA25942 /* Frameworks */,
-				D2E8AA246A627F774DBD2B866384B888 /* Resources */,
+				D12EAE9A9169EE89C718B2C303BC19A9 /* Headers */,
+				6B1CE37960FB55C8A92002BFA4998C47 /* Sources */,
+				483C164248E91E49D808F5C7B6B6001E /* Frameworks */,
+				B9DB3951CECACAB60F53B981E6604FFE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = OrderedCollections;
+			productName = OrderedCollections;
+			productReference = 730E64FA31D31F56346D5D91801452E0 /* OrderedCollections */;
+			productType = "com.apple.product-type.framework";
+		};
+		37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D614ABF90C6BE6D483F45BAF24FC2C /* Build configuration list for PBXNativeTarget "Segmentio" */;
+			buildPhases = (
+				D0F9F91C399A74887540C5378F3B20A9 /* Headers */,
+				6933A4B790923FB47EDCA52994FAE8A0 /* Sources */,
+				B57C4F8025356B98BA08586375727960 /* Frameworks */,
+				DB6E875565E778C38B5163B272BE4B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF2E0C900C5223B86E9849ECF6B01FE /* PBXTargetDependency */,
+			);
+			name = Segmentio;
+			productName = Segmentio;
+			productReference = E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio */;
+			productType = "com.apple.product-type.framework";
+		};
+		4874E7E655CEB4C01E4572AD903AEA21 /* FloatingPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF3C92FABCE4BE1998FD8441567F565 /* Build configuration list for PBXNativeTarget "FloatingPanel" */;
+			buildPhases = (
+				E0F1E1EBF83F19100B7EABB591F1D634 /* Headers */,
+				79A17B7B52A4E678886BF3FB2B166377 /* Sources */,
+				AFF472590F7E17200944CB3BE693B9D6 /* Frameworks */,
+				6B1709DCDD61B255A2B2EF302AA6C832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatingPanel;
+			productName = FloatingPanel;
+			productReference = 6FAAB7D3DE9B2564509ABD18687E938E /* FloatingPanel */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5D35FAA26E2A2B46BC62DF0B39F9524 /* Pods-Hackthon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BCD57D20F02654E827E64CDDF3FAC3A /* Build configuration list for PBXNativeTarget "Pods-Hackthon" */;
+			buildPhases = (
+				D446FFE7B6728C1BDE092BB31F1DCC66 /* Headers */,
+				80528BAB2071EFE8EAE041703654DA60 /* Sources */,
+				F03B86767666D1DE54D1BF876A60CF03 /* Frameworks */,
+				C969B2C2CC7327972722D295C3770D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF8725157C2A9132BD68D94BFAE4ABC /* PBXTargetDependency */,
+				A273B1352CBFCE09F52A397E569640B5 /* PBXTargetDependency */,
+				B3B91EB643279C5DDC2ABEFB09030413 /* PBXTargetDependency */,
+				D9A9B6C58B61E1956602FB156B254F6B /* PBXTargetDependency */,
+			);
 			name = "Pods-Hackthon";
 			productName = Pods_Hackthon;
 			productReference = A015F65F88D37C6CADC901F25B1EFFF2 /* Pods-Hackthon */;
 			productType = "com.apple.product-type.framework";
+		};
+		AFCF7D29EC7396E4018DB1E49BC64FFE /* Segmentio-Segmentio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F298266793B08FCE0826CA33381337E /* Build configuration list for PBXNativeTarget "Segmentio-Segmentio" */;
+			buildPhases = (
+				9EBB70EADE1035843A18D6C181604B70 /* Sources */,
+				A374A005BB6591010822D0815E2B9491 /* Frameworks */,
+				C113847AB6252F05B20A9B961AF31C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Segmentio-Segmentio";
+			productName = Segmentio;
+			productReference = C8F2C375082C9FA86026FA0A69016000 /* Segmentio-Segmentio */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -146,40 +742,221 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 34B71FFD8C356E290617B8E47A0581F3 /* Products */;
+			productRefGroup = D2848AA479FB5868CFF26353C2D12618 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4874E7E655CEB4C01E4572AD903AEA21 /* FloatingPanel */,
+				1DC65A64BAC8933AE10AE6B8314CB307 /* OrderedCollections */,
 				A5D35FAA26E2A2B46BC62DF0B39F9524 /* Pods-Hackthon */,
+				37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */,
+				AFCF7D29EC7396E4018DB1E49BC64FFE /* Segmentio-Segmentio */,
+				C6E02334B34978796A45D1BAFBF86A66 /* TensorFlowLiteTaskVision */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2E8AA246A627F774DBD2B866384B888 /* Resources */ = {
+		6B1709DCDD61B255A2B2EF302AA6C832 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9DB3951CECACAB60F53B981E6604FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C113847AB6252F05B20A9B961AF31C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087F7CF29BF785D9F528720DAE9D0A8C /* BadgeWithCounterViewBigSized.xib in Resources */,
+				4B866B36183AE79D2597F7DEC1A30920 /* BadgeWithCounterViewStandardSized.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C969B2C2CC7327972722D295C3770D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6E875565E778C38B5163B272BE4B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45C6978B572456DB3BA5B4AF399C2F7 /* BadgeWithCounterViewBigSized.xib in Resources */,
+				A7D01C817C3D67F23DB842D897E60CAD /* BadgeWithCounterViewStandardSized.xib in Resources */,
+				866DFC022937069F38003035850BB546 /* Segmentio-Segmentio in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		95799ACCA2576E2FB54B1732748FC6C8 /* Sources */ = {
+		6933A4B790923FB47EDCA52994FAE8A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05D15733D2861B5917F25F5424577404 /* Pods-Hackthon-dummy.m in Sources */,
+				716B2A73C6BC4C91AC44329B84C63486 /* BadgeViewPresenter.swift in Sources */,
+				D1D3A4848F4A26B36401DDFEE38C0694 /* BadgeWithCounterView.swift in Sources */,
+				BE96C9B58C8DE9172C4191E231FA0E68 /* RoundImageView.swift in Sources */,
+				B13F2E3CF496FDD5F2A072E239274D8F /* Segmentio.swift in Sources */,
+				141A2FAEC4F4A57CB3D4A3F1890ACCC2 /* Segmentio-dummy.m in Sources */,
+				BBC3E9EE46AAE09030497823C8B40DCC /* SegmentioCell.swift in Sources */,
+				E31BFC33C5EDCF71F75CAC94BD8CAC5A /* SegmentioCellWithImage.swift in Sources */,
+				852A868A984EB67068160C2987B5F039 /* SegmentioCellWithImageAfterLabel.swift in Sources */,
+				FA5D291DD73189B104954720535F8FBA /* SegmentioCellWithImageBeforeLabel.swift in Sources */,
+				83AE6249033A8D067BD881A24BB65A57 /* SegmentioCellWithImageOverLabel.swift in Sources */,
+				487AA42C928214420E93932E7C7F72E5 /* SegmentioCellWithImageUnderLabel.swift in Sources */,
+				79A6C4D0E68777B438FB8D9D964C87B4 /* SegmentioCellWithLabel.swift in Sources */,
+				2372F84F5FDDA2B23EF1D1F9765EE0BB /* SegmentioOptions.swift in Sources */,
+				FBD8C81CD4E936B160BAA9B95DC7625F /* UIView+Appearance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1CE37960FB55C8A92002BFA4998C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E1BD501427A3553EFEC0557B4C649F /* _HashTable.swift in Sources */,
+				F68F9E7BAFC96A5285581E41B8CE9EB2 /* _HashTable+Bucket.swift in Sources */,
+				C6CC1DFB9233CF19D8C2D6378D5CB742 /* _HashTable+BucketIterator.swift in Sources */,
+				9C02D1192F9691C47FB4BABFECC97F40 /* _HashTable+Constants.swift in Sources */,
+				9EFF145AAB48021AB483DC6ADF240C3A /* _HashTable+CustomStringConvertible.swift in Sources */,
+				BD2D91A3F6509D9273D77BABD8A978F3 /* _Hashtable+Header.swift in Sources */,
+				182287F2F2F7E55E6E46EA092961EEED /* _HashTable+Testing.swift in Sources */,
+				C3A7E2B1AE641AF7B268DC5375F8E98C /* _HashTable+UnsafeHandle.swift in Sources */,
+				2F9E1790D1F88B0D9F374294FD0FDD49 /* _UnsafeBitset.swift in Sources */,
+				CA4BB715C9CB6E2D3942DFF2ECE5BDCC /* OrderedCollections.docc in Sources */,
+				DA86FC64C8E6939CE8B3114DC7CDA2A3 /* OrderedCollections-dummy.m in Sources */,
+				D8AF6BFD87ABEF575523F79EDE748E58 /* OrderedDictionary.swift in Sources */,
+				88314BD8BADBD9E826D467D2B553ACF6 /* OrderedDictionary+Codable.swift in Sources */,
+				245C2FD33C9834E2A456FF47A95B093E /* OrderedDictionary+CustomDebugStringConvertible.swift in Sources */,
+				7219F841366845B94CDA5CF441CF39C0 /* OrderedDictionary+CustomReflectable.swift in Sources */,
+				33001489AE185F3803340BA7AB58E690 /* OrderedDictionary+CustomStringConvertible.swift in Sources */,
+				6D8B3B03F650C15489A2A03D950AD6C8 /* OrderedDictionary+Deprecations.swift in Sources */,
+				4CD79C3F8863F9BA0B6169DE93F72956 /* OrderedDictionary+Elements.swift in Sources */,
+				69150C976200A1FE5AA1EDBDFB476E9D /* OrderedDictionary+Elements+SubSequence.swift in Sources */,
+				A36DB80133415D7CD0F1C621E2F8A52A /* OrderedDictionary+Equatable.swift in Sources */,
+				874B44251DE89D2322A9EF6A82E35494 /* OrderedDictionary+ExpressibleByDictionaryLiteral.swift in Sources */,
+				CEF96F3FEF638784F9119B3CAEE1AC70 /* OrderedDictionary+Hashable.swift in Sources */,
+				F241D9F1E95D94F748B2122602EF61E2 /* OrderedDictionary+Initializers.swift in Sources */,
+				5912B5A7D69727B1DCDC5B39FD59E475 /* OrderedDictionary+Invariants.swift in Sources */,
+				F36919CE1A6215A7D90AA74F59342468 /* OrderedDictionary+Partial MutableCollection.swift in Sources */,
+				6A56D803F3FA3905A8E1DDB83A8D89FA /* OrderedDictionary+Partial RangeReplaceableCollection.swift in Sources */,
+				80F9F8D0276D738A5CD1DACEBD5F0F16 /* OrderedDictionary+Sequence.swift in Sources */,
+				4AF86E04F5BF550F9A83888317F9191D /* OrderedDictionary+Values.swift in Sources */,
+				9CF8AD44049E62C7A5A98D04E9B7D929 /* OrderedSet.swift in Sources */,
+				25471AAACFA8DF5799B4B61145CB525F /* OrderedSet+Codable.swift in Sources */,
+				AB4F9A615652673C1D52BFCBCD8FF20F /* OrderedSet+CustomDebugStringConvertible.swift in Sources */,
+				6741D058F910546341694EA6C75AD23D /* OrderedSet+CustomReflectable.swift in Sources */,
+				469461DF21E91249B6EDEBA57CEFD9A2 /* OrderedSet+CustomStringConvertible.swift in Sources */,
+				0035B6877407183E3AAE58CC68069605 /* OrderedSet+Diffing.swift in Sources */,
+				52755A2C3DAAE76CD58B45F077603E68 /* OrderedSet+Equatable.swift in Sources */,
+				6D93CC9F683E8F242C37D8F6053CA7D9 /* OrderedSet+ExpressibleByArrayLiteral.swift in Sources */,
+				362E130D0D68F81CC1096AC291CA773D /* OrderedSet+Hashable.swift in Sources */,
+				9E429246029C8866067D2E6F33E6908D /* OrderedSet+Initializers.swift in Sources */,
+				090AA98B8F211F18A676AFBB852B71BF /* OrderedSet+Insertions.swift in Sources */,
+				A4034E67527EA67BF32C2F75A3E50F8C /* OrderedSet+Invariants.swift in Sources */,
+				9FCC57087F4D81B221B201456F1D831B /* OrderedSet+Partial MutableCollection.swift in Sources */,
+				406E34F38984E616B0E65BA27BE3FD79 /* OrderedSet+Partial RangeReplaceableCollection.swift in Sources */,
+				ABFCF5B3909EA93A1223BBF6D1A4844F /* OrderedSet+Partial SetAlgebra+Basics.swift in Sources */,
+				8D124371963B2072CE261D7BCE59EF2A /* OrderedSet+Partial SetAlgebra+Operations.swift in Sources */,
+				047B35438026E5606186DCD79C997DE2 /* OrderedSet+Partial SetAlgebra+Predicates.swift in Sources */,
+				03F50ED6AF819E854B2437ED5F8CEAF7 /* OrderedSet+RandomAccessCollection.swift in Sources */,
+				4BED1362D2D8EEDF617ABCE6A54EC85B /* OrderedSet+ReserveCapacity.swift in Sources */,
+				E15CA89D1FBFAF200355765D7077F28D /* OrderedSet+SubSequence.swift in Sources */,
+				E081469E9FD58F052ED4987B3027C471 /* OrderedSet+Testing.swift in Sources */,
+				A5FA8AED462E396BF09AB5E7712DC181 /* OrderedSet+UnorderedView.swift in Sources */,
+				032438EEC31581AADD24BB883C851F1D /* OrderedSet+UnstableInternals.swift in Sources */,
+				1DB35FB4F28C013294734F03F320A6DD /* RandomAccessCollection+Offsets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A17B7B52A4E678886BF3FB2B166377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F14A8EFB8FA31BDDD9F4FF898062CD /* BackdropView.swift in Sources */,
+				AE8D24DCCC1F03D9901D0DE60D64BAFB /* Behavior.swift in Sources */,
+				35CE50B095F994F7D4A5CCFF06AA8400 /* Controller.swift in Sources */,
+				4778E0CCB30A8527991354FDB8BF09C3 /* Core.swift in Sources */,
+				F2EF52C4B85F4E1161C61A0E7A35CA0F /* Extensions.swift in Sources */,
+				93666F263CB286EDDAC1ED2AFCD7ABEA /* FloatingPanel-dummy.m in Sources */,
+				887275EA13701ABC8442EF911A2B002D /* GrabberView.swift in Sources */,
+				C57A9D3B9E1586A00E36D628721EC4B4 /* Layout.swift in Sources */,
+				3CC34F811D2F469604BBB4B8EF83A1E7 /* LayoutAnchoring.swift in Sources */,
+				CDA7BE102B536DF04951C483231EC639 /* LayoutProperties.swift in Sources */,
+				B34298462934B58DABD4B97406B6D53F /* Logger.swift in Sources */,
+				E82FF5CCDF9DAF1D5BFCB302880F21A7 /* PassthroughView.swift in Sources */,
+				417E432CBFD9512722DC54190F529746 /* Position.swift in Sources */,
+				64B340D21CE02611998CF98E8F845D0E /* State.swift in Sources */,
+				D06A54B4300195656110A0C9E7E06E1D /* SurfaceView.swift in Sources */,
+				C5C3DE9EDCCCF2DCEC5961766CC2F32E /* Transitioning.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80528BAB2071EFE8EAE041703654DA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EC04E348B7E5D344F15A795194AC56 /* Pods-Hackthon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBB70EADE1035843A18D6C181604B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8CF8725157C2A9132BD68D94BFAE4ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FloatingPanel;
+			target = 4874E7E655CEB4C01E4572AD903AEA21 /* FloatingPanel */;
+			targetProxy = 82FBB31B836A8B7738D9734FCD72F11A /* PBXContainerItemProxy */;
+		};
+		A273B1352CBFCE09F52A397E569640B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderedCollections;
+			target = 1DC65A64BAC8933AE10AE6B8314CB307 /* OrderedCollections */;
+			targetProxy = 9EB6B6C1F16D4CA1F6D4C223790A2286 /* PBXContainerItemProxy */;
+		};
+		B3B91EB643279C5DDC2ABEFB09030413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Segmentio;
+			target = 37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */;
+			targetProxy = B057D482B7A0B535632D857AADF3EBE0 /* PBXContainerItemProxy */;
+		};
+		CAF2E0C900C5223B86E9849ECF6B01FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Segmentio-Segmentio";
+			target = AFCF7D29EC7396E4018DB1E49BC64FFE /* Segmentio-Segmentio */;
+			targetProxy = A90CAE577A24FC11D27921C8AC3A8795 /* PBXContainerItemProxy */;
+		};
+		D9A9B6C58B61E1956602FB156B254F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteTaskVision;
+			target = C6E02334B34978796A45D1BAFBF86A66 /* TensorFlowLiteTaskVision */;
+			targetProxy = A68FD6BAA71450DF847AF4DD33A18B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		2D8B5B5117C305FF6F6802274C11CF07 /* Release */ = {
+		2A8BB32DD23DE39A8FFB281EA547D7F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0A3E6652A82CFA468B6462E3E19D9E /* Pods-Hackthon.release.xcconfig */;
+			baseConfigurationReference = F248DA77F2D9DC93E2E738933F451A1B /* Pods-Hackthon.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -213,6 +990,185 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DEBF50BE6D8CDDACC4E99FC5F42449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1543D92E24CEE360D084BDC3C128EB3 /* OrderedCollections.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/OrderedCollections/OrderedCollections-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderedCollections/OrderedCollections-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OrderedCollections/OrderedCollections.modulemap";
+				PRODUCT_MODULE_NAME = OrderedCollections;
+				PRODUCT_NAME = OrderedCollections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		374818FDEA874B0027D4960FA1496656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E995C253D1EEBD597F97FE6E2A04E7D2 /* FloatingPanel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/FloatingPanel/FloatingPanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloatingPanel/FloatingPanel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FloatingPanel/FloatingPanel.modulemap";
+				PRODUCT_MODULE_NAME = FloatingPanel;
+				PRODUCT_NAME = FloatingPanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AE91D25D807275E809FB3A994F74EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81D7D9504B728B73E24F3E8E7E94B76 /* TensorFlowLiteTaskVision.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57846655B267A26BE2CD5C7B2D848097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3C01A7131E381F713FC51AD781844E /* Segmentio.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/Segmentio/Segmentio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segmentio/Segmentio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Segmentio/Segmentio.modulemap";
+				PRODUCT_MODULE_NAME = Segmentio;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		709FEE7944C15C05735957F8451E9BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4804AB8FD22E95312D27734EC5491492 /* OrderedCollections.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/OrderedCollections/OrderedCollections-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderedCollections/OrderedCollections-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OrderedCollections/OrderedCollections.modulemap";
+				PRODUCT_MODULE_NAME = OrderedCollections;
+				PRODUCT_NAME = OrderedCollections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		804159C6CB76EF71A517375AED316C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3C01A7131E381F713FC51AD781844E /* Segmentio.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Segmentio";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = Segmentio;
+				INFOPLIST_FILE = "Target Support Files/Segmentio/ResourceBundle-Segmentio-Segmentio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -282,6 +1238,44 @@
 			};
 			name = Debug;
 		};
+		9D7F340BFBC2F28D48854D625AA4B9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E32FF7102BBEA245ABA86A5A6341A3 /* Pods-Hackthon.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hackthon/Pods-Hackthon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hackthon/Pods-Hackthon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -344,11 +1338,10 @@
 			};
 			name = Release;
 		};
-		F15D3596666A8B7A8742921EE52E0CD7 /* Debug */ = {
+		A0FB834D8544046A1C05A5C4CB59371E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE3E3938E6076805722E5C0B96A0ED07 /* Pods-Hackthon.debug.xcconfig */;
+			baseConfigurationReference = FE3304041DE6B61503DFA7EE6637ABD4 /* FloatingPanel.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -359,7 +1352,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				INFOPLIST_FILE = "Target Support Files/Pods-Hackthon/Pods-Hackthon-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FloatingPanel/FloatingPanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloatingPanel/FloatingPanel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -367,29 +1361,118 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Hackthon/Pods-Hackthon.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/FloatingPanel/FloatingPanel.modulemap";
+				PRODUCT_MODULE_NAME = FloatingPanel;
+				PRODUCT_NAME = FloatingPanel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B264E0899AB32984D4274C44AE4A44D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8E2A072AAFD8631110C9D1B2E9701D /* TensorFlowLiteTaskVision.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECD1A6D08B541B46B7FDEFD854BE9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81BAD4704CEEAE61D0CBE11C3326B1D /* Segmentio.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/Segmentio/Segmentio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segmentio/Segmentio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Segmentio/Segmentio.modulemap";
+				PRODUCT_MODULE_NAME = Segmentio;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		E409CF242FDC06F14218878D86326A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81BAD4704CEEAE61D0CBE11C3326B1D /* Segmentio.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Segmentio";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IBSC_MODULE = Segmentio;
+				INFOPLIST_FILE = "Target Support Files/Segmentio/ResourceBundle-Segmentio-Segmentio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18BE9CBE9115EF265105957E393FE083 /* Build configuration list for PBXNativeTarget "Pods-Hackthon" */ = {
+		1BCD57D20F02654E827E64CDDF3FAC3A /* Build configuration list for PBXNativeTarget "Pods-Hackthon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F15D3596666A8B7A8742921EE52E0CD7 /* Debug */,
-				2D8B5B5117C305FF6F6802274C11CF07 /* Release */,
+				9D7F340BFBC2F28D48854D625AA4B9C0 /* Debug */,
+				2A8BB32DD23DE39A8FFB281EA547D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF3C92FABCE4BE1998FD8441567F565 /* Build configuration list for PBXNativeTarget "FloatingPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374818FDEA874B0027D4960FA1496656 /* Debug */,
+				A0FB834D8544046A1C05A5C4CB59371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276AA80069B441C706BFD4CFA8631E87 /* Build configuration list for PBXAggregateTarget "TensorFlowLiteTaskVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE91D25D807275E809FB3A994F74EA0 /* Debug */,
+				B264E0899AB32984D4274C44AE4A44D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -399,6 +1482,33 @@
 			buildConfigurations = (
 				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
 				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F298266793B08FCE0826CA33381337E /* Build configuration list for PBXNativeTarget "Segmentio-Segmentio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E409CF242FDC06F14218878D86326A22 /* Debug */,
+				804159C6CB76EF71A517375AED316C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D614ABF90C6BE6D483F45BAF24FC2C /* Build configuration list for PBXNativeTarget "Segmentio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD1A6D08B541B46B7FDEFD854BE9D7 /* Debug */,
+				57846655B267A26BE2CD5C7B2D848097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1C32759B44C988057D4536C4BF0077 /* Build configuration list for PBXNativeTarget "OrderedCollections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709FEE7944C15C05735957F8451E9BCC /* Debug */,
+				2DEBF50BE6D8CDDACC4E99FC5F42449E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

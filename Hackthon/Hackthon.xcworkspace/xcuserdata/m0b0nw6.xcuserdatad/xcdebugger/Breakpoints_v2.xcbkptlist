@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4FE96E5C-854D-43E8-B0AF-BF15E15F798E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2AAA5FA-A9B5-4995-9530-195B4996FC47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Details/ScannedImageViewControlller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "setupFCP()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "515940EA-5002-4D29-BF34-4ACFE99CD41A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Helper/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "didOutput(pixelBuffer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A8DD31A-3E5E-4BC3-B411-4FC79F3E4C2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Details/ItemsListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F5F18AE-63E8-4179-88D2-FEB6B0086D32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "NetworkManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30FEECEF-B812-42C0-8005-BBAD261E1CFB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getProducts(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30FEECEF-B812-42C0-8005-BBAD261E1CFB - 76a55b88b03caf3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.NetworkManager.getProducts(query: Swift.String, completion: (Swift.Optional&lt;Hackthon.WalmartResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "712">
+               </Location>
+               <Location
+                  uuid = "30FEECEF-B812-42C0-8005-BBAD261E1CFB - 76a55b88b03caf5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.NetworkManager.getProducts(query: Swift.String, completion: (Swift.Optional&lt;Hackthon.WalmartResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "712">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1266D833-71E4-4FF8-B9C1-20EFA8C28EE2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getProducts(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1266D833-71E4-4FF8-B9C1-20EFA8C28EE2 - 435a47074888b5a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hackthon.NetworkManager.getProducts(query: Swift.String, completion: (Swift.Optional&lt;Hackthon.WalmartResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "1266D833-71E4-4FF8-B9C1-20EFA8C28EE2 - 435a47074888b5a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hackthon.NetworkManager.getProducts(query: Swift.String, completion: (Swift.Optional&lt;Hackthon.WalmartResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "1266D833-71E4-4FF8-B9C1-20EFA8C28EE2 - 76a55b88b03caf9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.NetworkManager.getProducts(query: Swift.String, completion: (Swift.Optional&lt;Hackthon.WalmartResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1240">
+               </Location>
+               <Location
+                  uuid = "1266D833-71E4-4FF8-B9C1-20EFA8C28EE2 - 435a47074888b58f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hackthon.NetworkManager.getProducts(query: Swift.String, completion: (Swift.Optional&lt;Hackthon.WalmartResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5A5F318-E302-462C-9481-03B74BCF8F4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getProducts(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5A5F318-E302-462C-9481-03B74BCF8F4F - 435a47074888b251"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hackthon.NetworkManager.getProducts(query: Swift.String, completion: (Swift.Optional&lt;Hackthon.WalmartResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "2764">
+               </Location>
+               <Location
+                  uuid = "F5A5F318-E302-462C-9481-03B74BCF8F4F - 435a47074888b251"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hackthon.NetworkManager.getProducts(query: Swift.String, completion: (Swift.Optional&lt;Hackthon.WalmartResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "2468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B75501B8-93CF-435F-B1AF-053649E61044"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getProducts(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B75501B8-93CF-435F-B1AF-053649E61044 - 435a47074888b5cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hackthon.NetworkManager.getProducts(query: Swift.String, completion: (Swift.Optional&lt;Hackthon.WalmartResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "B75501B8-93CF-435F-B1AF-053649E61044 - 435a47074888b22c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hackthon.NetworkManager.getProducts(query: Swift.String, completion: (Swift.Optional&lt;Hackthon.WalmartResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7849611A-CCA1-4784-A349-55A87B7BDC7A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Helper/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "floatingPanel(_:contentOffsetForPinning:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7849611A-CCA1-4784-A349-55A87B7BDC7A - f13b0306e59b2e49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ViewController.floatingPanel(_: FloatingPanel.FloatingPanelController, contentOffsetForPinning: __C.UIScrollView) -&gt; __C.CGPoint"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Helper/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "7849611A-CCA1-4784-A349-55A87B7BDC7A - f13b0306e59b2e49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ViewController.floatingPanel(_: FloatingPanel.FloatingPanelController, contentOffsetForPinning: __C.UIScrollView) -&gt; __C.CGPoint"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Helper/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AD5361B-F647-436C-8E92-C9A8FACF0B39"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Helper/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "floatingPanel(_:contentOffsetForPinning:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3AD5361B-F647-436C-8E92-C9A8FACF0B39 - f13b0306e59b2e8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ViewController.floatingPanel(_: FloatingPanel.FloatingPanelController, contentOffsetForPinning: __C.UIScrollView) -&gt; __C.CGPoint"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Helper/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "3AD5361B-F647-436C-8E92-C9A8FACF0B39 - f13b0306e59b2e49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ViewController.floatingPanel(_: FloatingPanel.FloatingPanelController, contentOffsetForPinning: __C.UIScrollView) -&gt; __C.CGPoint"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Helper/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "3AD5361B-F647-436C-8E92-C9A8FACF0B39 - f13b0306e59b2e6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ViewController.floatingPanel(_: FloatingPanel.FloatingPanelController, contentOffsetForPinning: __C.UIScrollView) -&gt; __C.CGPoint"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Helper/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB7E7279-B4FB-4D85-8BFF-731E417E8AD2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Helper/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "setupFCP()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB7E7279-B4FB-4D85-8BFF-731E417E8AD2 - 49fee31b6c38e344"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ViewController.setupFCP() -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Helper/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "AB7E7279-B4FB-4D85-8BFF-731E417E8AD2 - 49fee31b6c38e344"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ViewController.setupFCP() -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Helper/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "824D75A2-6B9A-4F5E-B4A3-0C91FCBEE441"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Helper/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "824D75A2-6B9A-4F5E-B4A3-0C91FCBEE441 - 81996b4db9681a88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Helper/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "824D75A2-6B9A-4F5E-B4A3-0C91FCBEE441 - 81996b4db9681a88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Helper/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "508">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "443924D1-4B22-4B87-98D3-7391F390E5E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Helper/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "floatingPanel(_:contentOffsetForPinning:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BA05445-49F9-4E05-80DB-6315FE33835E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Details/ItemsListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7BA05445-49F9-4E05-80DB-6315FE33835E - 6cda92e021d5644c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ItemsListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Details/ItemsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "876">
+               </Location>
+               <Location
+                  uuid = "7BA05445-49F9-4E05-80DB-6315FE33835E - 6cda92e021d5644c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ItemsListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Details/ItemsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "2240">
+               </Location>
+               <Location
+                  uuid = "7BA05445-49F9-4E05-80DB-6315FE33835E - 6cda92e021d5644c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ItemsListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Details/ItemsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "2668">
+               </Location>
+               <Location
+                  uuid = "7BA05445-49F9-4E05-80DB-6315FE33835E - 6cda92e021d5644c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ItemsListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Details/ItemsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "2804">
+               </Location>
+               <Location
+                  uuid = "7BA05445-49F9-4E05-80DB-6315FE33835E - 6cda92e021d5644c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ItemsListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Details/ItemsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AAEFA30-8661-4263-9998-EFB39BF484CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hackthon/Details/ItemsListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4AAEFA30-8661-4263-9998-EFB39BF484CB - 6cda92e021d5646d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ItemsListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Details/ItemsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "3008">
+               </Location>
+               <Location
+                  uuid = "4AAEFA30-8661-4263-9998-EFB39BF484CB - 6cda92e021d5646d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ItemsListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Details/ItemsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "876">
+               </Location>
+               <Location
+                  uuid = "4AAEFA30-8661-4263-9998-EFB39BF484CB - 6cda92e021d5646d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ItemsListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Details/ItemsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "2240">
+               </Location>
+               <Location
+                  uuid = "4AAEFA30-8661-4263-9998-EFB39BF484CB - 6cda92e021d5646d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ItemsListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Details/ItemsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "2668">
+               </Location>
+               <Location
+                  uuid = "4AAEFA30-8661-4263-9998-EFB39BF484CB - 6cda92e021d5646d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hackthon.ItemsListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hackthon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m0b0nw6/Documents/GitHub/Hackthon/Hackthon/Hackthon/Details/ItemsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "2804">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

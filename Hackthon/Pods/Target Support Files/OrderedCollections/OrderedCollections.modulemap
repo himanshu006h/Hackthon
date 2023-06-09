@@ -1,0 +1,6 @@
+framework module OrderedCollections {
+  umbrella header "OrderedCollections-umbrella.h"
+
+  export *
+  module * { export * }
+}

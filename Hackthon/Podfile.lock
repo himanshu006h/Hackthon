@@ -1,3 +1,28 @@
-PODFILE CHECKSUM: e42d2d797e4dcf565eea0ae7ad231db37d8a89d0
+PODS:
+  - FloatingPanel (2.6.2)
+  - OrderedCollections (1.0.4)
+  - Segmentio (4.1)
+  - TensorFlowLiteTaskVision (0.4.3)
 
-COCOAPODS: 1.11.3
+DEPENDENCIES:
+  - FloatingPanel
+  - OrderedCollections
+  - Segmentio
+  - TensorFlowLiteTaskVision
+
+SPEC REPOS:
+  trunk:
+    - FloatingPanel
+    - OrderedCollections
+    - Segmentio
+    - TensorFlowLiteTaskVision
+
+SPEC CHECKSUMS:
+  FloatingPanel: 4c72e4f212b1cc26d6948b20e6b570d6d9639ca9
+  OrderedCollections: c754ce5f9e42cf22b73afd73582317347903ab6d
+  Segmentio: ab29def64e1bff6e6e9b97671788a99bed3f1d9f
+  TensorFlowLiteTaskVision: 125d5b49d325ba2cf3938454da5f74a1cbfe0552
+
+PODFILE CHECKSUM: 2325256ff04d0927330dc4e54cfc87c7454a6249
+
+COCOAPODS: 1.12.1

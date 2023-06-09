@@ -10,22 +10,27 @@
 		0E2F7A871F072745ED644F0A /* Pods_Hackthon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EDCF4E6C96D57029C654CC /* Pods_Hackthon.framework */; };
 		346066672A31919900ADADAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066662A31919900ADADAB /* AppDelegate.swift */; };
 		346066692A31919900ADADAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066682A31919900ADADAB /* SceneDelegate.swift */; };
-		3460666B2A31919900ADADAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460666A2A31919900ADADAB /* ViewController.swift */; };
-		3460666E2A31919900ADADAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3460666C2A31919900ADADAB /* Main.storyboard */; };
 		346066702A31919E00ADADAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3460666F2A31919E00ADADAB /* Assets.xcassets */; };
 		346066732A31919E00ADADAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346066712A31919E00ADADAB /* LaunchScreen.storyboard */; };
 		3460667E2A31919E00ADADAB /* HackthonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460667D2A31919E00ADADAB /* HackthonTests.swift */; };
 		346066882A31919F00ADADAB /* HackthonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066872A31919F00ADADAB /* HackthonUITests.swift */; };
 		3460668A2A31919F00ADADAB /* HackthonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066892A31919F00ADADAB /* HackthonUITestsLaunchTests.swift */; };
-		346066982A31A1FE00ADADAB /* ScannerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066972A31A1FE00ADADAB /* ScannerComponent.swift */; };
-		3460669A2A31A22000ADADAB /* CoreScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066992A31A22000ADADAB /* CoreScanner.swift */; };
-		3460669D2A31A28200ADADAB /* ScannerOutputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460669B2A31A28200ADADAB /* ScannerOutputModel.swift */; };
-		3460669E2A31A28200ADADAB /* ScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460669C2A31A28200ADADAB /* ScannerModel.swift */; };
-		346066A02A31A2E700ADADAB /* ScannerComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3460669F2A31A2E600ADADAB /* ScannerComponentViewController.xib */; };
 		346066A62A31D36800ADADAB /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346066A22A31D36800ADADAB /* ItemCell.xib */; };
 		346066A72A31D36800ADADAB /* ItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066A32A31D36800ADADAB /* ItemsListViewController.swift */; };
 		346066A82A31D36800ADADAB /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066A42A31D36800ADADAB /* ItemCell.swift */; };
 		346066A92A31D36800ADADAB /* ScannedImageViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346066A52A31D36800ADADAB /* ScannedImageViewControlller.swift */; };
+		7C535D542A31D94800C95D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C535D532A31D94800C95D5F /* Main.storyboard */; };
+		7C535D602A31DC5200C95D5F /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C535D5E2A31DC5200C95D5F /* PreviewView.swift */; };
+		7C535D612A31DC5200C95D5F /* CameraFeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C535D5F2A31DC5200C95D5F /* CameraFeedManager.swift */; };
+		7C535D682A31DC7500C95D5F /* efficientdet_lite0.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 7C535D632A31DC7400C95D5F /* efficientdet_lite0.tflite */; };
+		7C535D692A31DC7500C95D5F /* ObjectDetectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C535D642A31DC7400C95D5F /* ObjectDetectionHelper.swift */; };
+		7C535D6A2A31DC7500C95D5F /* ssd_mobilenet_v1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 7C535D652A31DC7500C95D5F /* ssd_mobilenet_v1.tflite */; };
+		7C535D6B2A31DC7500C95D5F /* efficientdet_lite2.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 7C535D662A31DC7500C95D5F /* efficientdet_lite2.tflite */; };
+		7C535D6C2A31DC7500C95D5F /* efficientdet_lite1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 7C535D672A31DC7500C95D5F /* efficientdet_lite1.tflite */; };
+		7C535D6E2A31DC7D00C95D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C535D6D2A31DC7D00C95D5F /* ViewController.swift */; };
+		7C535D702A31DC8500C95D5F /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C535D6F2A31DC8500C95D5F /* OverlayView.swift */; };
+		7C535D732A31EF9300C95D5F /* productModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C535D722A31EF9300C95D5F /* productModel.swift */; };
+		7C535D752A31FBA600C95D5F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C535D742A31FBA600C95D5F /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +54,6 @@
 		346066632A31919900ADADAB /* Hackthon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackthon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		346066662A31919900ADADAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		346066682A31919900ADADAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3460666A2A31919900ADADAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3460666D2A31919900ADADAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3460666F2A31919E00ADADAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		346066722A31919E00ADADAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		346066742A31919E00ADADAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,16 +62,23 @@
 		346066832A31919F00ADADAB /* HackthonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackthonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		346066872A31919F00ADADAB /* HackthonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackthonUITests.swift; sourceTree = "<group>"; };
 		346066892A31919F00ADADAB /* HackthonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackthonUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		346066972A31A1FE00ADADAB /* ScannerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerComponent.swift; sourceTree = "<group>"; };
-		346066992A31A22000ADADAB /* CoreScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreScanner.swift; sourceTree = "<group>"; };
-		3460669B2A31A28200ADADAB /* ScannerOutputModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerOutputModel.swift; sourceTree = "<group>"; };
-		3460669C2A31A28200ADADAB /* ScannerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerModel.swift; sourceTree = "<group>"; };
-		3460669F2A31A2E600ADADAB /* ScannerComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScannerComponentViewController.xib; sourceTree = "<group>"; };
 		346066A22A31D36800ADADAB /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 		346066A32A31D36800ADADAB /* ItemsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListViewController.swift; sourceTree = "<group>"; };
 		346066A42A31D36800ADADAB /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		346066A52A31D36800ADADAB /* ScannedImageViewControlller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannedImageViewControlller.swift; sourceTree = "<group>"; };
 		41EDCF4E6C96D57029C654CC /* Pods_Hackthon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackthon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C535D532A31D94800C95D5F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7C535D5E2A31DC5200C95D5F /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		7C535D5F2A31DC5200C95D5F /* CameraFeedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFeedManager.swift; sourceTree = "<group>"; };
+		7C535D632A31DC7400C95D5F /* efficientdet_lite0.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = efficientdet_lite0.tflite; sourceTree = "<group>"; };
+		7C535D642A31DC7400C95D5F /* ObjectDetectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetectionHelper.swift; sourceTree = "<group>"; };
+		7C535D652A31DC7500C95D5F /* ssd_mobilenet_v1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ssd_mobilenet_v1.tflite; sourceTree = "<group>"; };
+		7C535D662A31DC7500C95D5F /* efficientdet_lite2.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = efficientdet_lite2.tflite; sourceTree = "<group>"; };
+		7C535D672A31DC7500C95D5F /* efficientdet_lite1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = efficientdet_lite1.tflite; sourceTree = "<group>"; };
+		7C535D6D2A31DC7D00C95D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C535D6F2A31DC8500C95D5F /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		7C535D722A31EF9300C95D5F /* productModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productModel.swift; sourceTree = "<group>"; };
+		7C535D742A31FBA600C95D5F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8F11CF30B041985D8AA832F5 /* Pods-Hackthon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackthon.debug.xcconfig"; path = "Target Support Files/Pods-Hackthon/Pods-Hackthon.debug.xcconfig"; sourceTree = "<group>"; };
 		FC96E2142BDCE29D1F98AD82 /* Pods-Hackthon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackthon.release.xcconfig"; path = "Target Support Files/Pods-Hackthon/Pods-Hackthon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,12 +142,12 @@
 		346066652A31919900ADADAB /* Hackthon */ = {
 			isa = PBXGroup;
 			children = (
+				7C535D712A31EF7D00C95D5F /* Network */,
+				7C535D5D2A31DC3F00C95D5F /* Helper */,
 				346066A12A31D35400ADADAB /* Details */,
-				346066962A31A15E00ADADAB /* ImageCapture */,
 				346066662A31919900ADADAB /* AppDelegate.swift */,
 				346066682A31919900ADADAB /* SceneDelegate.swift */,
-				3460666A2A31919900ADADAB /* ViewController.swift */,
-				3460666C2A31919900ADADAB /* Main.storyboard */,
+				7C535D532A31D94800C95D5F /* Main.storyboard */,
 				3460666F2A31919E00ADADAB /* Assets.xcassets */,
 				346066712A31919E00ADADAB /* LaunchScreen.storyboard */,
 				346066742A31919E00ADADAB /* Info.plist */,
@@ -162,18 +172,6 @@
 			path = HackthonUITests;
 			sourceTree = "<group>";
 		};
-		346066962A31A15E00ADADAB /* ImageCapture */ = {
-			isa = PBXGroup;
-			children = (
-				3460669C2A31A28200ADADAB /* ScannerModel.swift */,
-				3460669B2A31A28200ADADAB /* ScannerOutputModel.swift */,
-				346066972A31A1FE00ADADAB /* ScannerComponent.swift */,
-				3460669F2A31A2E600ADADAB /* ScannerComponentViewController.xib */,
-				346066992A31A22000ADADAB /* CoreScanner.swift */,
-			);
-			path = ImageCapture;
-			sourceTree = "<group>";
-		};
 		346066A12A31D35400ADADAB /* Details */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +181,39 @@
 				346066A52A31D36800ADADAB /* ScannedImageViewControlller.swift */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		7C535D5D2A31DC3F00C95D5F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7C535D6F2A31DC8500C95D5F /* OverlayView.swift */,
+				7C535D5F2A31DC5200C95D5F /* CameraFeedManager.swift */,
+				7C535D5E2A31DC5200C95D5F /* PreviewView.swift */,
+				7C535D6D2A31DC7D00C95D5F /* ViewController.swift */,
+				7C535D622A31DC6600C95D5F /* TFLite */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7C535D622A31DC6600C95D5F /* TFLite */ = {
+			isa = PBXGroup;
+			children = (
+				7C535D632A31DC7400C95D5F /* efficientdet_lite0.tflite */,
+				7C535D672A31DC7500C95D5F /* efficientdet_lite1.tflite */,
+				7C535D662A31DC7500C95D5F /* efficientdet_lite2.tflite */,
+				7C535D642A31DC7400C95D5F /* ObjectDetectionHelper.swift */,
+				7C535D652A31DC7500C95D5F /* ssd_mobilenet_v1.tflite */,
+			);
+			path = TFLite;
+			sourceTree = "<group>";
+		};
+		7C535D712A31EF7D00C95D5F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7C535D722A31EF9300C95D5F /* productModel.swift */,
+				7C535D742A31FBA600C95D5F /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		92E01C2E2D33979D901EB4FE /* Pods */ = {
@@ -205,6 +236,7 @@
 				3460665F2A31919900ADADAB /* Sources */,
 				346066602A31919900ADADAB /* Frameworks */,
 				346066612A31919900ADADAB /* Resources */,
+				7FBFC0BC7DA1F42936A43DCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,11 +331,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C535D682A31DC7500C95D5F /* efficientdet_lite0.tflite in Resources */,
 				346066732A31919E00ADADAB /* LaunchScreen.storyboard in Resources */,
+				7C535D6A2A31DC7500C95D5F /* ssd_mobilenet_v1.tflite in Resources */,
+				7C535D542A31D94800C95D5F /* Main.storyboard in Resources */,
+				7C535D6C2A31DC7500C95D5F /* efficientdet_lite1.tflite in Resources */,
 				346066702A31919E00ADADAB /* Assets.xcassets in Resources */,
 				346066A62A31D36800ADADAB /* ItemCell.xib in Resources */,
-				3460666E2A31919900ADADAB /* Main.storyboard in Resources */,
-				346066A02A31A2E700ADADAB /* ScannerComponentViewController.xib in Resources */,
+				7C535D6B2A31DC7500C95D5F /* efficientdet_lite2.tflite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +359,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7FBFC0BC7DA1F42936A43DCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hackthon/Pods-Hackthon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hackthon/Pods-Hackthon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hackthon/Pods-Hackthon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C21A0E938996691D4D9844AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,15 +405,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3460669A2A31A22000ADADAB /* CoreScanner.swift in Sources */,
-				3460669E2A31A28200ADADAB /* ScannerModel.swift in Sources */,
+				7C535D752A31FBA600C95D5F /* NetworkManager.swift in Sources */,
 				346066A82A31D36800ADADAB /* ItemCell.swift in Sources */,
-				3460666B2A31919900ADADAB /* ViewController.swift in Sources */,
+				7C535D602A31DC5200C95D5F /* PreviewView.swift in Sources */,
+				7C535D6E2A31DC7D00C95D5F /* ViewController.swift in Sources */,
 				346066A92A31D36800ADADAB /* ScannedImageViewControlller.swift in Sources */,
+				7C535D692A31DC7500C95D5F /* ObjectDetectionHelper.swift in Sources */,
 				346066672A31919900ADADAB /* AppDelegate.swift in Sources */,
-				3460669D2A31A28200ADADAB /* ScannerOutputModel.swift in Sources */,
+				7C535D702A31DC8500C95D5F /* OverlayView.swift in Sources */,
 				346066A72A31D36800ADADAB /* ItemsListViewController.swift in Sources */,
-				346066982A31A1FE00ADADAB /* ScannerComponent.swift in Sources */,
+				7C535D732A31EF9300C95D5F /* productModel.swift in Sources */,
+				7C535D612A31DC5200C95D5F /* CameraFeedManager.swift in Sources */,
 				346066692A31919900ADADAB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,14 +453,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3460666C2A31919900ADADAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3460666D2A31919900ADADAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		346066712A31919E00ADADAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -543,11 +589,13 @@
 				DEVELOPMENT_TEAM = UDPJ785EBR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hackthon/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vision Shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,11 +620,13 @@
 				DEVELOPMENT_TEAM = UDPJ785EBR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hackthon/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vision Shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
